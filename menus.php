@@ -11,6 +11,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/carrousel-Menu.css">
+
 
 	<meta name="description"
 		content="Notre chef Marc concocte une cuisine familiale, savoureuse et variée. Découvrez nos formules tarifaires et les services en option.">
@@ -28,6 +30,156 @@
 
 		<!-- Main -->
 		<section id="main">
+
+		<!-- Main -->
+
+		<section id="banner">
+			<!-- Carrousel des menu  -->
+			<div class="carrousel col-12">
+				<div class="item-carrousel active">
+					<div class="semaine">
+						<h5>SEMAINE du 01/01 au 01/01</h5><br>
+					</div>
+					<div class="row">
+						<div class="Jour Lundi col-3 col-5-medium col-12-small">
+							<h6>Lundi  </h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="plat">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="dessert">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+							</ul>
+						</div>
+						<div class="Jour Mardi col-3 col-5-medium col-12-small">
+							<h6>Mardi  </h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="plat">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="dessert">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+							</ul>
+						</div>
+						<div class="Jour Mercredi col-3 col-5-medium col-12-small">
+							<h6>Mercredi  </h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="plat">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="dessert">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+							</ul>
+						</div>
+						<div class="Jour Jeudi col-3 col-5-medium col-12-small">
+							<h6>Jeudi </h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="plat">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="dessert">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+							</ul>
+						</div>
+						<div class="Jour Vendredi col-3 col-5-medium col-12-small">
+							<h6>Vendredi  </h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="plat">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="dessert">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+							</ul>
+						</div>
+						<div class="Jour Samedi col-3 col-5-medium col-12-small">
+							<h6>Samedi  </h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="plat">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="dessert">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+							</ul>
+						</div>
+
+						<div class="Jour Dimanche col-3 col-5-medium col-12-small">
+							<h6>Dimanche : </h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="plat">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+								<li class="dessert">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum
+									arcu ac ipsum dictum, in pharetra mi ultricies. Aenean volutpat.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<button class="col-3 carousel-button carousel-button-left">&#10094;</button>
+
+					<div class="bubule col-3">
+						<span class="dot" onclick="currentSlide(0)"></span>
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+					</div>
+
+					<button class="col-3 carousel-button carousel-button-right">&#10095;</button>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Fin du carrousel -->	
 			<div class="container">
 				<div class="row">
 
@@ -79,23 +231,8 @@
 
 					<!-- Content -->
 					<div id="content" class="col-8 col-12-medium imp-medium">
-
-						<div class="carrousel">
-							<div class="item-carrousel"></div>
-							<h5 class="semaine">SEMAINE du 01/01 au 01/01</h5>
-
-							<div class="Jour"></div>
-							<div class="Jour"></div>
-							<div class="Jour"></div>
-							<div class="Jour"></div>
-							<div class="Jour"></div>
-							<div class="Jour"></div>
-							<div class="Jour"></div>
-
-						</div>
-
 						<!-- Post -->
-						<article class="box post">
+					<article class="box post">
 							<header>
 								<h2>Une cuisine gourmande et de qualité</h2>
 							</header>
@@ -173,6 +310,7 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/formulaire.js"></script>
+	<script src="assets/js/carrousel-Menu.js"></script>
 
 </body>
 
