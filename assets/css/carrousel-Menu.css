@@ -4,6 +4,15 @@
     overflow: hidden;
 }
 
+.item-carrousel {
+    display: none;
+    /* Cache les items sauf celui actif */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .semaine {
     display: flex;
     align-items: center;

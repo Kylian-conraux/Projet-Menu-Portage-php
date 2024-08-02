@@ -1,3 +1,7 @@
+/*
+    Gestions de l'affichage des menus : 
+*/
+
 const menus = [
     { date: "2024-07-22", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
     { date: "2024-07-23", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
@@ -16,7 +20,10 @@ const menus = [
     { date: "2024-08-05", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
     { date: "2024-08-06", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
     { date: "2024-08-07", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
-    { date: "2024-08-08", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" }
+    { date: "2024-08-08", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
+    { date: "2024-08-09", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
+    { date: "2024-08-10", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" },
+    { date: "2024-08-11", entree: "sdfsdfsdf", plat: "fsdfsdf", dessert: "qsdqsqssdqsd" }
 ];
 
 const carrousel = document.querySelector("carrousel");
@@ -88,23 +95,21 @@ function recupLundi() {
     }
 }
 
-function afficherDansCarrouselMenu() {
-    const carrouselItem = document.querySelector(".active");
-    const tabJourCarrousel = carrouselItem.querySelectorAll(".Jour");
-    let positionLundiSemaineActuelle = recupLundi();
+function afficherCarouselItem(carrouselItem, positionDate) {
 
-    const semaine = document.querySelector(".semaine");
+    const semaine = carrouselItem.querySelector(".semaine");
     const titreSemaine = semaine.querySelector("h5");
-    let jourAFormaterLundi = new Date(menus[positionLundiSemaineActuelle].date)
-    let jourAFormaterDimanche = new Date(menus[positionLundiSemaineActuelle + 6].date)
+    let jourAFormaterLundi = new Date(menus[positionDate].date);
+    let jourAFormaterDimanche = new Date(menus[positionDate + 6].date);
     titreSemaine.textContent = "Semaine du " + jourAFormaterLundi.toLocaleDateString() + " au " + jourAFormaterDimanche.toLocaleDateString();
 
-    const optionFormatageJour = { day: 'numeric' };
+    const tabJourCarrousel = carrouselItem.querySelectorAll(".Jour");
 
+    const optionFormatageJour = { day: 'numeric' };
     let i;
     for (i = 0; i < 7; i++) {
         const jourCarrousel = tabJourCarrousel[i];
-        let positionjour = positionLundiSemaineActuelle + i;
+        let positionjour = positionDate + i;
         let menu = menus[positionjour];
 
         const jourTitre = jourCarrousel.querySelector('h6');
@@ -123,4 +128,68 @@ function afficherDansCarrouselMenu() {
     }
 }
 
+function afficherDansCarrouselMenu() {
+    const carrouselItemActive = document.querySelector(".active");
+    let positionLundiSemaineActuelle = recupLundi();
+
+    afficherCarouselItem(carrouselItemActive, positionLundiSemaineActuelle);
+
+    const carrouselItemPasse = document.querySelector(".Semaine-precedente");
+    let positionLundiSemaineDerniere = positionLundiSemaineActuelle - 7;
+
+    afficherCarouselItem(carrouselItemPasse, positionLundiSemaineDerniere);
+
+    const carrouselItemProchaine = document.querySelector(".Semaine-suivante");
+    let positionLundiSemaineProchaine = positionLundiSemaineActuelle + 7;
+
+    afficherCarouselItem(carrouselItemProchaine, positionLundiSemaineProchaine);
+
+}
+
 afficherDansCarrouselMenu();
+
+
+/*
+    gestion du carrousel 
+ */
+
+let slideIndex = 1;
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("item-carrousel");
+    let dots = document.getElementsByClassName("dot");
+
+    if (n >= slides.length) { slideIndex = 0 }
+    if (n < 0) { slideIndex = slides.length - 1 }
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active-dot", "");
+    }
+
+    slides[slideIndex].style.display = "flex";
+    slides[slideIndex].style.flexDirection = "column";
+    dots[slideIndex].className += " active-dot";
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+document.querySelector(".carousel-button-left").addEventListener("click", function () {
+    plusSlides(-1);
+});
+
+document.querySelector(".carousel-button-right").addEventListener("click", function () {
+    plusSlides(1);
+});
+
+// Initialize the carousel
+showSlides(slideIndex)
