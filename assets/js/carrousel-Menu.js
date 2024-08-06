@@ -152,9 +152,9 @@ function afficherCarouselItem(carrouselItem, positionDate) {
 
 // Fonction pour afficher les menus dans le carrousel
 function afficherDansCarrouselMenu() {
-    const activeItem = document.querySelector(".active");
-    const previousItem = document.querySelector(".Semaine-precedente");
-    const nextItem = document.querySelector(".Semaine-suivante");
+    const semaineActuelle = document.querySelector(".Semaine-actuelle");
+    const semainePrecedente = document.querySelector(".Semaine-precedente");
+    const semaineProchaine = document.querySelector(".Semaine-suivante");
 
     const positionLundiActuelle = recupLundi();
     if (positionLundiActuelle === -1) {
@@ -163,12 +163,12 @@ function afficherDansCarrouselMenu() {
     }
 
     // Afficher la semaine actuelle
-    afficherCarouselItem(activeItem, positionLundiActuelle);
+    afficherCarouselItem(semaineActuelle, positionLundiActuelle);
 
     // Afficher la semaine précédente si valide
     const positionLundiSemaineDerniere = positionLundiActuelle - 7;
     if (positionLundiSemaineDerniere >= 0) {
-        afficherCarouselItem(previousItem, positionLundiSemaineDerniere);
+        afficherCarouselItem(semainePrecedente, positionLundiSemaineDerniere);
     } else {
         console.error('Impossible de récupérer la semaine dernière');
     }
@@ -176,7 +176,7 @@ function afficherDansCarrouselMenu() {
     // Afficher la semaine prochaine si valide
     const positionLundiSemaineProchaine = positionLundiActuelle + 7;
     if (positionLundiSemaineProchaine < menus.length) {
-        afficherCarouselItem(nextItem, positionLundiSemaineProchaine);
+        afficherCarouselItem(semaineProchaine, positionLundiSemaineProchaine);
     } else {
         console.error("Impossible de récupérer la semaine prochaine");
     }

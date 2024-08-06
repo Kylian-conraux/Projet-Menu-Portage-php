@@ -141,7 +141,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="item-carrousel active">
+						<div class="item-carrousel Semaine-actuelle">
 							<div class="semaine">
 								<h5></h5><br>
 							</div>
