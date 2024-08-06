@@ -97,38 +97,17 @@ const menus = [
     { date: "2024-10-14", entree: "Tarte à l'oignon", plat: "Poisson en papillote", dessert: "Mille-feuille aux fruits" }
 ];
 
-
-
 // Sélection de l'élément carrousel dans le document
-const carrousel = document.querySelector("carrousel");
+const carrousel = document.querySelector(".carrousel");
 
 // Fonction pour chercher la date d'aujourd'hui dans les menus
 function chercherDateAujourdhui() {
-    const dateAujourdhui = new Date(); // Obtenir la date d'aujourd'hui
-    const jourAujourdhui = dateAujourdhui.getDate(); // Obtenir le jour du mois
-    const moisAujourdhui = dateAujourdhui.getMonth(); // Obtenir le mois (0-11)
-    let positionJourActuel = -1; // Initialisation de la position du jour actuel
-
-    // Boucle pour parcourir les menus
-    for (let i = 0; i < menus.length; i++) {
-        const dateMenu = new Date(menus[i].date); // Convertir la date du menu en objet Date
-        const jourMenu = dateMenu.getDate(); // Obtenir le jour du menu
-        const moisMenu = dateMenu.getMonth(); // Obtenir le mois du menu
-
-        // Comparer le jour et le mois du menu avec ceux d'aujourd'hui
-        if (jourMenu == jourAujourdhui && moisMenu == moisAujourdhui) {
-            positionJourActuel = i; // Mise à jour de la position si correspondance
-            break;
-        }
-    };
-
-    // Retourner la position du jour actuel ou -1 si non trouvé
-    if (positionJourActuel != -1) {
-        return positionJourActuel;
-    } else {
-        console.log("il y a un problème : impossible de récupérer la date d'aujourd'hui");
-        return positionJourActuel;
-    }
+    const aujourdhui = new Date(); // Crée un objet Date pour aujourd'hui
+    return menus.findIndex(menu => {
+        const menuDate = new Date(menu.date); // Crée un objet Date pour la date du menu
+        // Vérifie si le jour et le mois de menuDate sont égaux à ceux d'aujourdhui
+        return menuDate.getDate() === aujourdhui.getDate() && menuDate.getMonth() === aujourdhui.getMonth();
+    });
 }
 
 // Fonction pour récupérer la position du lundi de la semaine actuelle
@@ -136,121 +115,76 @@ function recupLundi() {
     const positionDateActuelle = chercherDateAujourdhui(); // Obtenir la position de la date d'aujourd'hui
 
     // Vérifier si la date actuelle a été trouvée
-    if (positionDateActuelle == -1) {
-        console.log("impossible de récupérer la date du jour! ");
-    } else {
-        const dateJour = new Date(menus[positionDateActuelle].date); // Obtenir l'objet Date de la date actuelle
-        const jour = dateJour.getDay(); // Obtenir le jour de la semaine (0-6)
-
-        // Déterminer la position du lundi en fonction du jour de la semaine
-        if (jour === 0) { // Dimanche
-            console.log("dimanche");
-            return positionDateActuelle - 6;
-        } else if (jour === 1) { // Lundi
-            console.log("lundi");
-            return positionDateActuelle;
-        } else if (jour === 2) { // Mardi
-            console.log("mardi");
-            return positionDateActuelle - 1;
-        } else if (jour === 3) { // Mercredi
-            console.log("mercredi");
-            return positionDateActuelle - 2;
-        } else if (jour === 4) { // Jeudi
-            console.log("jeudi");
-            return positionDateActuelle - 3;
-        } else if (jour === 5) { // Vendredi
-            console.log("vendredi");
-            return positionDateActuelle - 4;
-        } else if (jour === 6) { // Samedi
-            console.log("samedi");
-            return positionDateActuelle - 5;
-        }
+    if (positionDateActuelle === -1) {
+        console.log("impossible de récupérer la date du jour!");
+        return -1;
     }
+
+    const dateJour = new Date(menus[positionDateActuelle].date).getDay(); // Obtenir le jour de la semaine
+    // Calcul de la position du lundi
+    return positionDateActuelle - (dateJour === 0 ? 6 : dateJour - 1);
 }
 
 // Fonction pour afficher un item du carrousel en fonction de la position de la date
 function afficherCarouselItem(carrouselItem, positionDate) {
-    const semaine = carrouselItem.querySelector(".semaine");
-    const titreSemaine = semaine.querySelector("h5");
-
-    // Calculer la position du dimanche
-    let positionDateDimanche = positionDate + 6;
-
-    // Vérifier si les positions sont valides
-    if ((positionDate >= menus.length || positionDate < 0) || (positionDateDimanche >= menus.length)) {
-        console.log("impossible de récupérer la semaine");
-    } else {
-        let jourAFormaterLundi = new Date(menus[positionDate].date);
-        let jourAFormaterDimanche = new Date(menus[positionDateDimanche].date);
-        titreSemaine.textContent = "Semaine du " + jourAFormaterLundi.toLocaleDateString() + " au " + jourAFormaterDimanche.toLocaleDateString();
+    // Vérifier si la position est valide
+    if (positionDate < 0 || positionDate + 6 >= menus.length) {
+        console.error("Impossible de récupérer la semaine");
+        return;
     }
 
-    const tabJourCarrousel = carrouselItem.querySelectorAll(".Jour");
-    const optionFormatageJour = { day: 'numeric' };
+    // Mise à jour du titre de la semaine
+    const weekTitle = carrouselItem.querySelector(".semaine h5");
+    weekTitle.textContent = `Semaine du ${new Date(menus[positionDate].date).toLocaleDateString()} au ${new Date(menus[positionDate + 6].date).toLocaleDateString()}`;
 
-    // Boucle pour afficher les jours de la semaine
-    for (let i = 0; i < 7; i++) {
-        const jourCarrousel = tabJourCarrousel[i];
-        let positionjour = positionDate + i;
+    // Affichage des jours de la semaine
+    carrouselItem.querySelectorAll(".Jour").forEach((jour, index) => {
+        const menu = menus[positionDate + index];
+        const date = new Date(menu.date).toLocaleDateString("fr-FR", { day: 'numeric' });
 
-        // Vérifier si la position du jour est valide
-        if (positionjour >= menus.length) {
-            console.log("impossible de récupérer les jours de la semaine")
-            break;
-        } else {
-            let menu = menus[positionjour];
-
-            const jourTitre = jourCarrousel.querySelector('h6');
-            let dateJour = new Date(menu.date);
-            jourTitre.textContent += dateJour.toLocaleDateString("fr-FR", optionFormatageJour) + " :";
-
-            let entree = jourCarrousel.querySelector(".entrée");
-            entree.textContent = menu.entree;
-
-            let plat = jourCarrousel.querySelector(".plat");
-            plat.textContent = menu.plat;
-
-            let dessert = jourCarrousel.querySelector(".dessert");
-            dessert.textContent = menu.dessert;
-        }
-    }
+        // Concaténation du contenu existant avec la nouvelle date
+        jour.querySelector('h6').textContent += `${date} :`;
+        jour.querySelector(".entrée").textContent = menu.entree;
+        jour.querySelector(".plat").textContent = menu.plat;
+        jour.querySelector(".dessert").textContent = menu.dessert;
+    });
 }
 
 // Fonction pour afficher les menus dans le carrousel
 function afficherDansCarrouselMenu() {
-    const carrouselItemActive = document.querySelector(".active");
-    let positionLundiSemaineActuelle = recupLundi();
+    const activeItem = document.querySelector(".active");
+    const previousItem = document.querySelector(".Semaine-precedente");
+    const nextItem = document.querySelector(".Semaine-suivante");
 
-    // Vérifier si la position du lundi de la semaine actuelle est valide
-    if (positionLundiSemaineActuelle) {
-        afficherCarouselItem(carrouselItemActive, positionLundiSemaineActuelle);
+    const positionLundiActuelle = recupLundi();
+    if (positionLundiActuelle === -1) {
+        console.error("Impossible de récupérer le lundi actuel");
+        return;
+    }
 
-        const carrouselItemPasse = document.querySelector(".Semaine-precedente");
-        let positionLundiSemaineDerniere = positionLundiSemaineActuelle - 7;
+    // Afficher la semaine actuelle
+    afficherCarouselItem(activeItem, positionLundiActuelle);
 
-        // Vérifier si la position du lundi de la semaine dernière est valide
-        if (positionLundiSemaineDerniere < 0) {
-            console.log('impossible de récupérer la semaine dernière');
-        } else {
-            afficherCarouselItem(carrouselItemPasse, positionLundiSemaineDerniere);
-        }
-
-        const carrouselItemProchaine = document.querySelector(".Semaine-suivante");
-        let positionLundiSemaineProchaine = positionLundiSemaineActuelle + 7;
-
-        // Vérifier si la position du lundi de la semaine prochaine est valide
-        if (positionLundiSemaineProchaine >= menus.length) {
-            console.log("impossible de récupérer la semaine prochaine");
-        } else {
-            afficherCarouselItem(carrouselItemProchaine, positionLundiSemaineProchaine);
-        }
+    // Afficher la semaine précédente si valide
+    const positionLundiSemaineDerniere = positionLundiActuelle - 7;
+    if (positionLundiSemaineDerniere >= 0) {
+        afficherCarouselItem(previousItem, positionLundiSemaineDerniere);
     } else {
-        console.log("impossible de récupérer le lundi actuelle")
+        console.error('Impossible de récupérer la semaine dernière');
+    }
+
+    // Afficher la semaine prochaine si valide
+    const positionLundiSemaineProchaine = positionLundiActuelle + 7;
+    if (positionLundiSemaineProchaine < menus.length) {
+        afficherCarouselItem(nextItem, positionLundiSemaineProchaine);
+    } else {
+        console.error("Impossible de récupérer la semaine prochaine");
     }
 }
 
 // Appel de la fonction pour afficher les menus dans le carrousel
 afficherDansCarrouselMenu();
+
 
 /*
     Gestion du carrousel 
