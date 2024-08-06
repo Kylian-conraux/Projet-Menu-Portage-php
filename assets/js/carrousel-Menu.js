@@ -190,52 +190,44 @@ afficherDansCarrouselMenu();
     Gestion du carrousel 
  */
 
-// Initialisation de l'index de la diapositive
-let slideIndex = 1;
+document.addEventListener('DOMContentLoaded', () => {
+    const carouselInner = document.querySelector('.carrousel-inner');
+    console.log(carouselInner.classList);
+    const items = document.querySelectorAll('.item-carrousel');
+    const totalItems = items.length;
+    let currentIndex = 1; // Initial index set to the middle item
 
-// Fonction pour afficher les diapositives
-function showSlides(n) {
-    let slides = document.getElementsByClassName("item-carrousel");
-    let dots = document.getElementsByClassName("dot");
+    document.querySelector('.carousel-button-right').addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % totalItems;
+        updateCarousel();
+    });
 
-    // Ajuster l'index si nécessaire
-    if (n >= slides.length) { slideIndex = 0 }
-    if (n < 0) { slideIndex = slides.length - 1 }
+    document.querySelector('.carousel-button-left').addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+        updateCarousel();
+    });
 
-    // Masquer toutes les diapositives
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    document.querySelectorAll('.dot').forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            currentIndex = index;
+            updateCarousel();
+        });
+    });
+
+    function updateCarousel() {
+        const offset = -currentIndex * 100;
+        carouselInner.style.transform = `translateX(${offset}%)`;
+
+        document.querySelectorAll('.dot').forEach((dot, index) => {
+            if (index === currentIndex) {
+                dot.classList.add('active-dot');
+            } else {
+                dot.classList.remove('active-dot');
+            }
+        });
     }
 
-    // Réinitialiser les points de navigation
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active-dot", "");
-    }
+    // Initialize carousel to the middle item
+    updateCarousel();
 
-    // Afficher la diapositive courante et activer le point correspondant
-    slides[slideIndex].style.display = "flex";
-    slides[slideIndex].style.flexDirection = "column";
-    dots[slideIndex].className += " active-dot";
-}
-
-// Fonction pour naviguer vers une diapositive spécifique
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-// Fonction pour naviguer entre les diapositives
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-// Ajouter des gestionnaires d'événements pour les boutons de navigation
-document.querySelector(".carousel-button-left").addEventListener("click", function () {
-    plusSlides(-1);
 });
-
-document.querySelector(".carousel-button-right").addEventListener("click", function () {
-    plusSlides(1);
-});
-
-// Initialiser le carrousel en affichant la première diapositive
-showSlides(slideIndex);

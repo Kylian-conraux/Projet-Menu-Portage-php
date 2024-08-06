@@ -2,12 +2,19 @@
     position: relative;
     margin: 0px 0px 15px 0px;
     overflow: hidden;
+    width: 100%;
+}
+
+.carrousel-inner {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out;
+
 }
 
 .item-carrousel {
-    display: none;
-    /* Cache les items sauf celui actif */
-    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
