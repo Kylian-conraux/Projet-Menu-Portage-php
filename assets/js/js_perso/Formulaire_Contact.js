@@ -152,3 +152,6 @@ function checkRue(rue) {
 
 // Initialisation des écouteurs d'événements
 initEventListeners();
+
+
+

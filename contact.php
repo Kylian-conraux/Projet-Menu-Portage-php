@@ -10,9 +10,9 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/formulaireInscription.css">
+    <link rel="stylesheet" href="assets/css/formulaire_Contact.css">
     <link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
-    <title>Inscription Menu Portage | Croustillance</title>
+    <title>Contact Menu Portage | Croustillance</title>
 </head>
 
 <body class="no-sidebar is-preload">
@@ -135,6 +135,7 @@
                                         <option value="Socourt">Socourt</option>
                                         <option value="Vaxoncourt">Vaxoncourt</option>
                                         <option value="Vincey">Vincey</option>
+                                        <option value="Autre">Autre</option>
                                     </select><br>
                                 </div>
                                 <div class="col-12">
@@ -146,7 +147,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12">
+                            <div class="col-12 d-none">
                                 <!-- Sélection de la formule qu'une seul possible -->
                                 <h3>Formule : </h3><br>
                                 <div class="row formule">
@@ -161,7 +162,7 @@
                                     </div>
                                 </div>
                             </div><br>
-                            <div class="col-12">
+                            <div class="col-12 d-none">
                                 <!-- Suppléments: plusieurs possibles  -->
                                 <h3>Suppléments : </h3><br>
                                 <div class="row formule">
@@ -205,7 +206,7 @@
                                 </div>
                             </div>
                             <br>
-                            <div class="center">
+                            <div class="center d-none">
                                 <h5 class="prix">Prix : 10.55 €</h5>
                             </div>
                             <br>
@@ -240,7 +241,7 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/js_perso/formulaire.js"></script>
-    <script src="assets/js/js_perso/Formulaire_Inscription.js"></script>
+    <script src="assets/js/js_perso/Formulaire_Contact.js"></script>
     <script src="assets/js/js_perso/mapsLeaflet.js"></script>
 </body>
 

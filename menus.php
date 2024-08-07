@@ -465,7 +465,7 @@
 								en cas de changement.
 								À partir de 4 repas livrés par semaine, vous bénéficiez d’une réduction supplémentaire.
 								<br /><br />
-								<a href="inscription.php">Réserver vos prochains repas</a>
+								<a href="contact.php">Réserver vos prochains repas</a>
 							</p>
 
 

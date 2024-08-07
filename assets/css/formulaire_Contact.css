@@ -55,3 +55,7 @@ button{
 	border : 1px;
 	background-color: blue ;
 }
+
+.d-none{
+	display: none;
+}
