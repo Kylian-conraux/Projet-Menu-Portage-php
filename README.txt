@@ -1,3 +1,10 @@
+Formation découvertes des métiers du numérique | Alaji 2024
+
+Site construit à partir du template Strongly Typed (HTML5 up) (plus d'infos en dessous)
+
+Site modifié et construit par Sira GAYE, Damien BRICE et Kylian CONRAUX dans le cadre de la formation
+découvertes des métiers du numérique. 
+
 Strongly Typed by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
