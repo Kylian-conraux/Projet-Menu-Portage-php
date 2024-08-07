@@ -208,7 +208,6 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/js_perso/carousel.js"></script>
-	<script src="assets/js/js_perso/formulaire.js"></script>
 </body>
 
 </html>
