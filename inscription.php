@@ -11,7 +11,7 @@
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/formulaireInscription.css">
-    <link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+    <link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
     <title>Inscription Menu Portage | Croustillance</title>
 </head>
 
@@ -239,9 +239,9 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/formulaire.js"></script>
-    <script src="assets/js/Formulaire_Inscription.js"></script>
-    <script src="assets/js/mapsLeaflet.js"></script>
+    <script src="assets/js/js_perso/formulaire.js"></script>
+    <script src="assets/js/js_perso/Formulaire_Inscription.js"></script>
+    <script src="assets/js/js_perso/mapsLeaflet.js"></script>
 </body>
 
 </html>

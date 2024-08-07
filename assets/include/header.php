@@ -3,7 +3,7 @@
 					<div class="container">
 
 						<!-- Logo -->
-						<img src="assets/res/logo_final.svg" alt="" />
+						<img src="assets/css/images/logo_final.svg" alt="" />
 							<p>Service Traiteur et livraison</p>
 							
 						<!-- Nav -->

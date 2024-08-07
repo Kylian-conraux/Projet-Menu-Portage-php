@@ -16,7 +16,7 @@
 
 	<meta name="description" content="Notre chef Marc concocte une cuisine familiale, savoureuse et variée. Découvrez nos formules tarifaires et les services en option.">
 
-	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+	<link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
 </head>
 
 <body class="left-sidebar is-preload">
@@ -389,7 +389,7 @@
 										<header>
 											<h3><a href="#">La Saint-Valentin</a></h3>
 										</header>
-										<a href="#" class="image left"><img src="assets/res/menu-traiteur-Saint-Valentin.jpg" alt="" /></a>
+										<a href="#" class="image left"><img src="/images/menu-traiteur-Saint-Valentin.jpg" alt="" /></a>
 										<p>La Saint-Valentin approche! Donnez à votre amoureux un repas délicieux!
 										</p>
 										<ul class="actions">
@@ -405,7 +405,7 @@
 										<header>
 											<h3><a href="#">Noël</a></h3>
 										</header>
-										<a href="#" class="image left"><img src="assets/res/fond-fetes-2022.jpg" alt="" /></a>
+										<a href="#" class="image left"><img src="/images/fond-fetes-2022.jpg" alt="" /></a>
 										<p>les fêtes approches et en cette ocasions nous vous préparons des menus
 											spéciaux rien que pour vous!
 										</p>
@@ -427,7 +427,7 @@
 							<header>
 								<h2>Une cuisine gourmande et de qualité</h2>
 							</header>
-							<span class="image featured"><img src="assets/res/catering-table.jpg" alt="" /></span>
+							<span class="image featured"><img src="images/catering-table.jpg" alt="" /></span>
 
 							<p>Avec toute l’<a href="#">équipe dédiée au portage à domicile</a>, nous élaborons des
 								<strong>menus équilibrés</strong>,
@@ -465,7 +465,7 @@
 								en cas de changement.
 								À partir de 4 repas livrés par semaine, vous bénéficiez d’une réduction supplémentaire.
 								<br /><br />
-								<a href="inscription.html">Réserver vos prochains repas</a>
+								<a href="inscription.php">Réserver vos prochains repas</a>
 							</p>
 
 
@@ -500,8 +500,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/formulaire.js"></script>
-	<script src="assets/js/carrousel-Menu.js"></script>
+	<script src="assets/js/js_perso/formulaire.js"></script>
+	<script src="assets/js/js_perso/carrousel-Menu.js"></script>
 
 </body>
 

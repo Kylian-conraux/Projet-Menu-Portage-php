@@ -11,7 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/essaie.css" />
-	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+	<link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
 </head>
 
 <body class="homepage is-preload">
@@ -34,7 +34,7 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image table"><img src="assets/res/plat emporter.jpeg" alt="" /></a>
+							<a href="#" class="image table"><img src="/images/plat emporter.jpeg" alt="" /></a>
 							<header>
 								<h3>De bon petits plats</h3>
 							</header>
@@ -46,7 +46,7 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image featured"><img src="assets/res/senior.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/senior.jpg" alt="" /></a>
 							<header>
 								<h3>Des repas Savoureux </h3>
 							</header>
@@ -58,7 +58,7 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image featured"><img src="assets/res/fourgonette-croustillance.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/Portage à domicile/fourgonette-croustillance.jpg" alt="" /></a>
 							<header>
 								<h3>livraison à domicile</h3>
 							</header>
@@ -102,7 +102,7 @@
 							<header>
 								<h2><a href="#">de bon petits plas de <strong>qualité supérieur.</strong> </h2>
 							</header>
-							<a href="#" class="image featured"><img src="assets/res/Portage à domicile/Préparation des barquettes (1).jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/Portage à domicile/Préparation des barquettes (1).jpg" alt="" /></a>
 
 							<p> Menu Portage, <strong> traiteur et créateur de saveurs </strong> dans les Vosges depuis 10 ans, propose un service de<strong>livraison de repas à domicile destiné aux personnes âgées, handicapées ou en perte d’autonomie. </strong> Vous n’avez pas le cœur à cuisiner pour vous tout seul ? Votre conjoint qui prépare habituellement les repas est absent pour quelques jours, parti en maison de retraite ou en EHPAD ? Grâce à notre service <strong>Menu Portage</strong> , faites-vous livrer à domicile des plats gourmands et équilibrés, concoctés dans notre <strong>laboratoire de Nomexy </strong> :
 								<li>Entrée</li>
@@ -121,7 +121,7 @@
 							<header>
 								<h2><a href="#">des repas <strong>savoureux</strong> et adaptés à votre état de <strong>santé !</strong></a></h2>
 							</header>
-							<a href="#" class="image featured"><img src="assets/res/plat santé.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/plat santé.jpg" alt="" /></a>
 							<p>Vos repas sont préparés par<strong> Marc </strong>, un cuisinier très expérimenté, puisqu’il s’active derrière les fourneaux depuis plus de 45 ans ! Méthodique et intraitable sur le respect des règles d’hygiène, Marc prépare unecuisine familiale et équilibrée avec des produits de qualité. <strong>repas sont adaptés à vos goûts, et éventuellement aux consignes des médecins. Nous fournissons sur simple demande des plats </strong> :
 								<li>Sans chou ni épinards pour les personnes traitées par AVK.</li>
 								<li>Sans poisson.</li>
@@ -138,7 +138,7 @@
 							<header>
 								<h2><a href="#">bien plus qu'une simple <strong>livraison à domicile !</strong> </a></h2>
 							</header>
-							<a href="#" class="image featured"><img src="assets/res/livraisonrepas.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/livraisonrepas.jpg" alt="" /></a>
 							<p>Nos porteuses passent chez vous de 1 à 6 fois par semaine, tous les jours à la même heure (le repas du dimanche est livré le samedi).
 
 
@@ -266,7 +266,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/formulaire.js"></script>
+	<script src="assets/js/js_perso/formulaire.js"></script>
 
 </body>
 

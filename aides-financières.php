@@ -13,7 +13,7 @@
 	<meta name="description"
 		content="Tous les détails sur la facturation des repas livrés à domicile, ainsi que les aides possibles : APA, caisses de retraite, mutuelles, etc." />
 	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/aidesfinancieres.css"/>
-	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+	<link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
 </head>
 
 <body class="right-sidebar is-preload">
@@ -137,7 +137,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/formulaire.js"></script>
+	<script src="assets/js/js_perso/formulaire.js"></script>
 
 </body>
 

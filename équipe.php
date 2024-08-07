@@ -14,7 +14,7 @@
 		value="Croustillance met à votre disposition une équipe dédiée au portage des repas. Faites connaissance avec Marc, Catherine et nos 2 Sabrina !" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/carousel.css">
-	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+	<link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
 </head>
 
 <body class="no-sidebar is-preload">
@@ -43,7 +43,7 @@
 									<div class="personne">
 										<h3>Le groupe</h3>
 										<span class="image featured"><img class="carousel-image"
-												src="/assets/res/equipe-traiteur-croustillance.jpg" alt="" /></span>
+												src="/images/Portage à domicile/equipe-traiteur-croustillance.jpg" alt="" /></span>
 
 										<div class="carousel-text">
 											<p>Le traiteur Croustillance met à votre disposition une équipe entièrement
@@ -56,7 +56,7 @@
 									<div class="personne">
 										<h3>Catherine</h3>
 										<span class="image featured"><img class="carousel-image"
-												src="/assets/res/Catherine-portage-repas.jpg" alt="" /></span>
+												src="/images/Portage à domicile/Catherine-portage-repas.jpg" alt="" /></span>
 										<div class="carousel-text">
 											<p>Catherine travaille au service de portage à domicile depuis plus de cinq
 												ans.
@@ -89,7 +89,7 @@
 									<div class="personne">
 										<h3>Sabrina</h3>
 										<span class="image featured"><img class="carousel-image"
-												src="/assets/res/Sabina-service-table.jpg" alt="" /></span>
+												src="/images/Portage à domicile/Sabina-service-table.jpg" alt="" /></span>
 										<div class="carousel-text">
 											<p>Sabrina travaille depuis plusieurs années au portage de repas à domicile.
 												Sur la route du
@@ -114,7 +114,7 @@
 
 										<h3>Sabrina</h3>
 										<span class="image featured"><img class="carousel-image"
-												src="/assets/res/Sabrina-Denet.jpg" alt="" /></span>
+												src="/images/Portage à domicile/Sabrina-Denet.jpg" alt="" /></span>
 										<div class="carousel-text">
 											<p>Ce n’est pas une, mais deux Sabrina qui prennent soin des clients à leur
 												domicile ! Arrivée
@@ -140,7 +140,7 @@
 
 										<h3>Marc</h3>
 										<span class="image featured"><img class="carousel-image"
-												src="/assets/res/marc-cuisinier.jpg" alt="" /></span>
+												src="/images/Portage à domicile/marc-cuisinier.jpg" alt="" /></span>
 										<div class="carousel-text">
 											<p>Cuisinier depuis plus de quarante ans, Marc assure la préparation de
 												l’ensemble des plats
@@ -171,7 +171,7 @@
 									<div class="personne">
 										<h3> Pourquoi pas vous ?</h3>
 										<span class="image featured"><img class="carousel-image"
-												src="/assets/res/image_photo_profil_interrogation.jpg" alt="" /></span>
+												src="/images/image_photo_profil_interrogation.jpg" alt="" /></span>
 										<div class="carousel-text">
 											<p>Vous avez envie de nous rejoindre ? </p>
 											<p>N'hésitez pas à nous contacter par mail ou par le formulaire en bas. Nous
@@ -207,8 +207,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/carousel.js"></script>
-	<script src="assets/js/formulaire.js"></script>
+	<script src="assets/js/js_perso/carousel.js"></script>
+	<script src="assets/js/js_perso/formulaire.js"></script>
 </body>
 
 </html>

@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" value="Retrouvez ici la réponse à vos questions pratiques sur les livraisons de repas : préparation, transport, réchauffage, conservation des plats, etc." />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+    <link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
 </head>
 
 <body class="no-sidebar is-preload">
@@ -96,7 +96,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/formulaire.js"></script>
+    <script src="assets/js/js_perso/formulaire.js"></script>
 
 </body>
 
