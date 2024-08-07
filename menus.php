@@ -7,16 +7,25 @@
 <html>
 
 <head>
-	<title>Nos menus livrés à domicile | Menu Portage par Croustillance</title>
+	<title>Menu Portage – Menu Équilibré pour une Vie Saine </title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Découvrez nos repas équilibrés et nutritifs, spécialement conçus pour les retraités. Menu Portage offre des plateaux repas délicieux, adaptés aux besoins des personnes âgées, livrés à domicile dans les Vosges pour une alimentation saine et pratique.">
+    <meta name="keywords" content="Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé" "Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Menu-Portage"/>
+    <meta name="twitter:title" content="Menu Portage – Repas Sains pour Personnes Âgées "/>
+    <meta name="twitter:description " content="Menu Portage propose des plateaux repas équilibrés et nutritifs spécialement pour les seniors. Livrés directement à votre domicile dans les Vosges.  "/>
+    <meta name="twitter:image" content="URL de l’image "/>
 	<link rel="stylesheet" href="/assets/css/main.css" />
 	<link rel="stylesheet" href="/assets/css/carrousel-Menu.css">
-
-
-	<meta name="description" content="Notre chef Marc concocte une cuisine familiale, savoureuse et variée. Découvrez nos formules tarifaires et les services en option.">
-
 	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+	<meta property="og:type" content="webside"/>
+    <meta property="og:url" content=" https://www.Menu-Portage.fr"> 
+    <meta property="og:title" content="Menu Portage – Menu Équilibré pour une Vie Saine "/> 
+    <meta property="og:description" content="Menu Portage offre des plateaux repas équilibrés et nutritif pour les troisième âge, livrés à domicile dans les vosges. Savourez des plats délicieux et adaptés aux besoins des personnes âgées ."/>
+    <meta property=" og:site_name" content="Menu Portage – Repas Équilibrés pour Seniors."/>
+    <meta property=" og:image" content="URL de l’image "/>
 </head>
 
 <body class="left-sidebar is-preload">

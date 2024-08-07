@@ -7,13 +7,25 @@
 <html>
 
 <head>
-	<title>Menu Portage : la facturation et les aides | Croustillance</title>
+	<title>Menu Portage –  Aides Financières pour Repas Livrés dans les Vosges</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description"
-		content="Tous les détails sur la facturation des repas livrés à domicile, ainsi que les aides possibles : APA, caisses de retraite, mutuelles, etc." />
+	<meta name="description"  content="Menu Portage offre des devis personnalisés et divers modes de paiement. Profitez des trois aides financières pour alléger le coût des vos repas livrés à domicile dans les Vosges.">
+    <meta name="keywords" content="Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux, Financement, Aides, Financières, Dépenses, Paiement, Faciliter">
+    <meta name="twitter: card" content="summary">
+    <meta name="twitter: site" content="@Menu-Portage"/>
+    <meta name="twitter: title" content="Menu Portage – Aides financière pour repas à Domicile des Personnes Âgées"/>
+    <meta name="twitter: description" content=" Découvrez les aides financières pour les repas livrés à domicile des personnes âgées dans les Vosges avec Menu Portage. Devis personnalisés et options de paiement disponibles. #Finacement #AidesFinancières   #RepasSeniors #LivraisonRepas #Seniors #PersonnesÂgées#Vosges #Thaon #Charmes #Chavelot #Nomexy  "/>
+    <meta name=" twitter:image " content= " URL de l’image "/>
 	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/aidesfinancieres.css"/>
 	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+	<meta property="og:type" content="webside"/>
+    <meta property="og:url" content=" https://www.Menu-Portage.fr">
+    <meta property="og:title" content="Menu Portage –  Aides Financières pour Repas Livrés dans les Vosges"/> 
+    <meta property="og:description" content="Découvrez les aides financières disponibles pour le service portage des repas livrés à domiciles des personnes âgées fans les Vosges avec Menu Portage. Nous proposons des devis personnalisés et plusieurs option de paiement pour répondre à vos besoins"/>
+    <meta property="og:site_name" content=" Menu Portage"/>
+    <meta property="og:image" conten="URL de l’image"/>
+ 
 </head>
 
 <body class="right-sidebar is-preload">

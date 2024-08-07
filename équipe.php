@@ -7,14 +7,25 @@
 <html>
 
 <head>
-	<title>Notre équipe dédiée au portage des repas | Croustillance</title>
+	<title>Menu Portage – Notre Équipe Portage de repas pour les Retraité des Vosges</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description"
-		value="Croustillance met à votre disposition une équipe dédiée au portage des repas. Faites connaissance avec Marc, Catherine et nos 2 Sabrina !" />
+	<meta name="description" content="Découvrez notre équipe passionnée qui consacre à livrer des repas de qualités aux personnes âgées de Charmes. Chaque membre est formé pour offrir un service attentif respectueux et chaleureux ">
+    <meta name="keywords" content="Équipe, Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux, Thaon, Charmes,  Chavelot, Châtel-sur-Moselle, Domèvre-sur-Durbion, Essegney, Frizon, Girmont , Hadigny-les-Verrières, Igney, Langley, Moriville, Nomexy, Pallegney, Portieux et La Verrerie de Portieux , Socourt, Vaxoncourt, Vincey" >
+    <meta name="twitter: card" content="summary">
+    <meta name="twitter: site" content="@Menu-Portage"/>
+    <meta name="twitter: title" content="Menu Portage – Notre Équipe de Portage de repas à Thaon "/>
+    <meta name="twitter: description" content="Découvrez notre équipe engagée à livrer des repas aux troisième âge de Chavelot, offrant un service attentif et respectueux à chaque livraison."/>
+    <meta name="twitter:image" content="URL de l’image "/>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/carousel.css">
 	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
+	<meta property="og:type" content="webside"/>
+    <meta property="og:url" content="https://www.Menu-Portage.fr">
+    <meta property="og:title" content="Menu Portage – Notre Équipe Portage de repas pour les Retraité des Vosges"/> 
+    <meta property="og:description" content="Découvrez notre équipe dévouée au portage de repas pour les senior à Charmes, Chavelot, Thaon... Nous assurons un service chaleureux et respectueux, adapté aux besoins spécifiques des chaque personne.">
+    <meta property="og:site_name" content="Menu Portage"/>
+    <meta property="og:image" content="URL de l’image "/>
 </head>
 
 <body class="no-sidebar is-preload">
