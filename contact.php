@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" value="" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/formulaire_Contact.css">
     <link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
@@ -20,8 +18,8 @@
 
         <!-- Header -->
         <?php
-		include 'assets/include/header.php';
-		?>
+        include 'assets/include/header.php';
+        ?>
 
         <!-- Main -->
         <section id="main">
@@ -116,7 +114,7 @@
                                     <!-- liste des villes déservis -->
                                     <label for="villes">Adresse de livraison : </label>
                                     <select name="villes" id="villes">
-                                        <option value="Chamagne">Chamagne</option>
+                                        <option value="Chamagne" selected>Chamagne</option>
                                         <option value="Charmes">Charmes</option>
                                         <option value="Chatel-sur-Moselle">Chatel-sur-Moselle</option>
                                         <option value="Chavelot">Chavelot</option>
@@ -138,6 +136,13 @@
                                         <option value="Autre">Autre</option>
                                     </select><br>
                                 </div>
+                                <div class="col-12 villeAutre d-none">
+                                    <!--entrée texte pour ville Autre-->
+                                    <label for="rue">Entrez le nom de votre ville : </label>
+                                    <div class="col-12">
+                                        <input id="villeAutre" name="villeAUtre" placeholder="Ville" type="text" /><br>
+                                    </div>
+                                </div>
                                 <div class="col-12">
                                     <!--entrée texte pour la rue-->
                                     <label for="rue">Rue : </label>
@@ -152,8 +157,7 @@
                                 <h3>Formule : </h3><br>
                                 <div class="row formule">
                                     <div class="row col-6 col-12-small">
-                                        <input id="formule-complète" name="formule" type="radio"
-                                            value="Entrée Plat déssert" checked>
+                                        <input id="formule-complète" name="formule" type="radio" value="Entrée Plat déssert" checked>
                                         <label for="formule-complète">Entrée/Plat/Dessert</label>
                                     </div>
                                     <div class="row col-6 col-12-small">
@@ -211,8 +215,7 @@
                             </div>
                             <br>
                             <div class="col-12">
-                                <a id="submit" href="#"
-                                    class="form-button-submit button icon solid fa-envelope">Inscription</a>
+                                <a id="submit" href="#" class="form-button-submit button icon solid fa-envelope">Inscription</a>
                             </div>
 
                         </form>

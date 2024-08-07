@@ -153,5 +153,21 @@ function checkRue(rue) {
 // Initialisation des écouteurs d'événements
 initEventListeners();
 
+const villeAutre = document.querySelector(".villeAutre");
 
+adresseVille.addEventListener("change", function (event) {
+    console.log(event.target.value);
+    let isAutreVille = event.target.value === "Autre";
+    if (isAutreVille) {
+        villeAutre.style.display = "block";
+        if (villeAutre.classList.contains("d-none")) {
+            villeAutre.classList.remove('d-none');
+        }
+    } else {
+        if (!(villeAutre.classList.contains("d-none"))) {
+            villeAutre.classList.add("d-none");
+            villeAutre.style.display = "none";
+        }
+    }
+});
 
