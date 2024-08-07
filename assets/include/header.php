@@ -15,6 +15,7 @@
 									</li>
 									<li><a class="icon solid fa-truck" href="modalités.php"><span>Modalités</span></a></li>
 									<li><a class="icon solid fa-sitemap" href="équipe.php"><span>L'équipe</span></a></li>
+									<li><a class="icon solid fa-phone" href="contact.php"><span>Contact</span></a></li>
 								</ul>
 							</nav>
 
