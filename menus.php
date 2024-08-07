@@ -41,7 +41,7 @@
 									<h5></h5><br>
 								</div>
 								<div class="row">
-									<div class="Jour Lundi col-3 col-5-medium col-12-small">
+									<div class="Jour Lundi col-3 col-5-medium col-11-small">
 										<h6>Lundi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -55,7 +55,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Mardi col-3 col-5-medium col-12-small">
+									<div class="Jour Mardi col-3 col-5-medium col-11-small">
 										<h6>Mardi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -69,7 +69,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Mercredi col-3 col-5-medium col-12-small">
+									<div class="Jour Mercredi col-3 col-5-medium col-11-small">
 										<h6>Mercredi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -83,7 +83,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Jeudi col-3 col-5-medium col-12-small">
+									<div class="Jour Jeudi col-3 col-5-medium col-11-small">
 										<h6>Jeudi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -97,7 +97,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Vendredi col-3 col-5-medium col-12-small">
+									<div class="Jour Vendredi col-3 col-5-medium col-11-small">
 										<h6>Vendredi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -111,7 +111,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Samedi col-3 col-5-medium col-12-small">
+									<div class="Jour Samedi col-3 col-5-medium col-11-small">
 										<h6>Samedi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -126,7 +126,7 @@
 										</ul>
 									</div>
 
-									<div class="Jour Dimanche col-3 col-5-medium col-12-small">
+									<div class="Jour Dimanche col-3 col-5-medium col-11-small">
 										<h6>Dimanche </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -147,7 +147,7 @@
 									<h5></h5><br>
 								</div>
 								<div class="row">
-									<div class="Jour Lundi col-3 col-5-medium col-12-small">
+									<div class="Jour Lundi col-3 col-5-medium col-11-small">
 										<h6>Lundi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -161,7 +161,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Mardi col-3 col-5-medium col-12-small">
+									<div class="Jour Mardi col-3 col-5-medium col-11-small">
 										<h6>Mardi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -175,7 +175,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Mercredi col-3 col-5-medium col-12-small">
+									<div class="Jour Mercredi col-3 col-5-medium col-11-small">
 										<h6>Mercredi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -189,7 +189,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Jeudi col-3 col-5-medium col-12-small">
+									<div class="Jour Jeudi col-3 col-5-medium col-11-small">
 										<h6>Jeudi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -203,7 +203,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Vendredi col-3 col-5-medium col-12-small">
+									<div class="Jour Vendredi col-3 col-5-medium col-11-small">
 										<h6>Vendredi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -217,7 +217,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Samedi col-3 col-5-medium col-12-small">
+									<div class="Jour Samedi col-3 col-5-medium col-11-small">
 										<h6>Samedi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -232,7 +232,7 @@
 										</ul>
 									</div>
 
-									<div class="Jour Dimanche col-3 col-5-medium col-12-small">
+									<div class="Jour Dimanche col-3 col-5-medium col-11-small">
 										<h6>Dimanche </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -253,7 +253,7 @@
 									<h5></h5><br>
 								</div>
 								<div class="row">
-									<div class="Jour Lundi col-3 col-5-medium col-12-small">
+									<div class="Jour Lundi col-3 col-5-medium col-11-small">
 										<h6>Lundi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -267,7 +267,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Mardi col-3 col-5-medium col-12-small">
+									<div class="Jour Mardi col-3 col-5-medium col-11-small">
 										<h6>Mardi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -281,7 +281,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Mercredi col-3 col-5-medium col-12-small">
+									<div class="Jour Mercredi col-3 col-5-medium col-11-small">
 										<h6>Mercredi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -295,7 +295,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Jeudi col-3 col-5-medium col-12-small">
+									<div class="Jour Jeudi col-3 col-5-medium col-11-small">
 										<h6>Jeudi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -309,7 +309,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Vendredi col-3 col-5-medium col-12-small">
+									<div class="Jour Vendredi col-3 col-5-medium col-11-small">
 										<h6>Vendredi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -323,7 +323,7 @@
 											</li>
 										</ul>
 									</div>
-									<div class="Jour Samedi col-3 col-5-medium col-12-small">
+									<div class="Jour Samedi col-3 col-5-medium col-11-small">
 										<h6>Samedi </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
@@ -338,7 +338,7 @@
 										</ul>
 									</div>
 
-									<div class="Jour Dimanche col-3 col-5-medium col-12-small">
+									<div class="Jour Dimanche col-3 col-5-medium col-11-small">
 										<h6>Dimanche </h6>
 										<ul class="listeMenu">
 											<li class="entrée">
