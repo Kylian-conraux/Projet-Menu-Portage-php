@@ -17,15 +17,15 @@
     <meta name="twitter:title" content="Menu Portage – Repas Sains pour Personnes Âgées "/>
     <meta name="twitter:description " content="Menu Portage propose des plateaux repas équilibrés et nutritifs spécialement pour les seniors. Livrés directement à votre domicile dans les Vosges.  "/>
     <meta name="twitter:image" content="URL de l’image "/>
-	<link rel="stylesheet" href="/assets/css/main.css" />
-	<link rel="stylesheet" href="/assets/css/carrousel-Menu.css">
-	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
 	<meta property="og:type" content="webside"/>
     <meta property="og:url" content=" https://www.Menu-Portage.fr"> 
     <meta property="og:title" content="Menu Portage – Menu Équilibré pour une Vie Saine "/> 
     <meta property="og:description" content="Menu Portage offre des plateaux repas équilibrés et nutritif pour les troisième âge, livrés à domicile dans les vosges. Savourez des plats délicieux et adaptés aux besoins des personnes âgées ."/>
-    <meta property=" og:site_name" content="Menu Portage – Repas Équilibrés pour Seniors."/>
-    <meta property=" og:image" content="URL de l’image "/>
+    <meta property="og:site_name" content="Menu Portage – Repas Équilibrés pour Seniors."/>
+    <meta property="og:image" content="URL de l’image "/>
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<link rel="stylesheet" href="/assets/css/carrousel-Menu.css">
+	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
 </head>
 
 <body class="left-sidebar is-preload">

@@ -10,21 +10,21 @@
 	<title>Menu Portage – Livraison de Repas a Domicile dans les Vosges aux Retraité</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content ="Menu Portage livre des repas équilibrés et délicieux pour les personnes âgées dans les Vosges. Nous proposons des menus variés et nutritifs, adaptés aux besoins des seniors, directement à domicile.facilitez votre quotidien avec notre service.">
-    <meta name="keywords" content ="Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux">
-    <meta name="twitter: card" content ="summary">
-    <meta name="twitter: site" content = "@Menu-Portage"/>
-    <meta name="twitter: title" content = "Menu Portage – Repas Savoureux et Équilibrés Livrés à Domicile pour les Seniors"/>
-    <meta name="twitter: description " content = " Menu Portage propose des repas équilibrés et délicieux, livrés directement pour les troisième âge. Notre service assure une nutrition adaptée et confort alimentaire optimal. Découvrez nos menus variés et savoureux. #RepasSeniors #LivraisonRepas #Seniors #PersonnesÂgées#Vosges #Thaon #Charmes #Chavelot #Nomexy "/>
-    <meta name=" twitter:image " content = " URL de l’image "/>
+	<meta name="description" content="Menu Portage livre des repas équilibrés et délicieux pour les personnes âgées dans les Vosges. Nous proposons des menus variés et nutritifs, adaptés aux besoins des seniors, directement à domicile.facilitez votre quotidien avec notre service.">
+    <meta name="keywords" content="Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Menu-Portage"/>
+    <meta name="twitter:title" content="Menu Portage – Repas Savoureux et Équilibrés Livrés à Domicile pour les Seniors"/>
+    <meta name="twitter:description " content="Menu Portage propose des repas équilibrés et délicieux, livrés directement pour les troisième âge. Notre service assure une nutrition adaptée et confort alimentaire optimal. Découvrez nos menus variés et savoureux. #RepasSeniors #LivraisonRepas #Seniors #PersonnesÂgées#Vosges #Thaon #Charmes #Chavelot #Nomexy "/>
+    <meta name="twitter:image " content="URL de l’image "/>
+    <meta property="og:type" content="webside"/>
+    <meta property="og:url" content="https://www.Menu-Portage.fr"> 
+    <meta property="og:title" content="Menu Portage – Livraison de Repas a Domicile dans les Vosges aux Retraité"/> 
+    <meta property="og:description" content="Menu Portage offre un service de portage de repas équilibrés et délicieux spécialement conçus pour les  personnes âgées. Profitez de menus variés et nutritifs, livrés directement à domicile un confort optimal. Simplifiez votre quotidien avec Menu Portage."/>
+    <meta property="og:site_name" content="Menu Portage – Service de Livraison de Repas pour Seniors."/>
+    <meta property="og:image" content="URL de l’image "/>
 	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/essaie.css" />
 	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
-    <meta property="og:type"content = "webside"/>
-    <meta property="og:url" content = " https://www.Menu-Portage.fr"> 
-    <meta property="og:title" content = "Menu Portage – Livraison de Repas a Domicile dans les Vosges aux Retraité"/> 
-    <meta property="og:description" content = "Menu Portage offre un service de portage de repas équilibrés et délicieux spécialement conçus pour les  personnes âgées. Profitez de menus variés et nutritifs, livrés directement à domicile un confort optimal. Simplifiez votre quotidien avec Menu Portage."/>
-    <meta property="og:site_name" content = " Menu Portage – Service de Livraison de Repas pour Seniors."/>
-    <meta property=" og:image" content = " URL de l’image "/>
 </head>
 
 <body class="homepage is-preload">

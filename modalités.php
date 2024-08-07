@@ -12,19 +12,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="Informez-vous sur la préparation, le transport, le réchauffage et la conservation de vos repas livrés dans les Vosges. Nous veillons à la qualité et à la sécurité de chaque plat pour une expérience optimal.">
     <meta name="keywords" content="Modalité, Préparation, Transport, Conservation ,Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux, Vosges">
-    <meta name="twitter: card" content="summary">
-    <meta name="twitter: site" content="@Menu-Portage"/>
-    <meta name="twitter: title" content="Menu Portage – Modalités de Livraison des repas des retraités dans les Vosges"/>
-    <meta name="twitter: description" content="Découvrez comment nous préparons, transportons, réchauffons, et conservons vos repas livrés dans les Vosges pour garantir leur qualité et sécurité.Tout ce que vous devez savoir pour profiter pleinement de nos services "/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Menu-Portage"/>
+    <meta name="twitter:title" content="Menu Portage – Modalités de Livraison des repas des retraités dans les Vosges"/>
+    <meta name="twitter:description" content="Découvrez comment nous préparons, transportons, réchauffons, et conservons vos repas livrés dans les Vosges pour garantir leur qualité et sécurité.Tout ce que vous devez savoir pour profiter pleinement de nos services "/>
     <meta name="twitter:image" content="URL de l’image "/>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
     <meta property="og:type" content="webside"/>
     <meta property="og:url" content="https://www.Menu-Portage.fr">
     <meta property="og:title" content="Menu Portage – Modalité de Livraison et Conservation "/> 
     <meta property="og:description" content="Découvrez nos pratiques pour la préparation, le réchauffage et la conservation des repas livrés dans les Vosges, assurant qualité et sécurité" ./>
     <meta property="og:site_name" content=" Menu Portage "/>
     <meta property="og:image" content=" URL de l’image "/>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
 </head>
 
 <body class="no-sidebar is-preload">
