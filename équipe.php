@@ -16,13 +16,13 @@
     <meta name="twitter:site" content="@Menu-Portage"/>
     <meta name="twitter:title" content="Menu Portage – Notre Équipe de Portage de repas à Thaon "/>
     <meta name="twitter:description" content="Découvrez notre équipe engagée à livrer des repas aux troisième âge de Chavelot, offrant un service attentif et respectueux à chaque livraison."/>
-    <meta name="twitter:image" content="URL de l’image "/>
+    <meta name="twitter:image" content="assets/res/equipetwitter.svg"/>
 	<meta property="og:type" content="webside"/>
     <meta property="og:url" content="https://www.Menu-Portage.fr">
     <meta property="og:title" content="Menu Portage – Notre Équipe Portage de repas pour les Retraité des Vosges"/> 
     <meta property="og:description" content="Découvrez notre équipe dévouée au portage de repas pour les senior à Charmes, Chavelot, Thaon... Nous assurons un service chaleureux et respectueux, adapté aux besoins spécifiques des chaque personne.">
     <meta property="og:site_name" content="Menu Portage"/>
-    <meta property="og:image" content="URL de l’image "/>
+    <meta property="og:image" content="assets/res/equipeOG.svg"/>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/carousel.css">
 	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">

@@ -16,13 +16,13 @@
     <meta name="twitter:site" content="@Menu-Portage"/>
     <meta name="twitter:title" content="Menu Portage – Repas Savoureux et Équilibrés Livrés à Domicile pour les Seniors"/>
     <meta name="twitter:description " content="Menu Portage propose des repas équilibrés et délicieux, livrés directement pour les troisième âge. Notre service assure une nutrition adaptée et confort alimentaire optimal. Découvrez nos menus variés et savoureux. #RepasSeniors #LivraisonRepas #Seniors #PersonnesÂgées#Vosges #Thaon #Charmes #Chavelot #Nomexy "/>
-    <meta name="twitter:image " content="URL de l’image "/>
+    <meta name="twitter:image " content="assets/res/indextwitter.svg"/>
     <meta property="og:type" content="webside"/>
     <meta property="og:url" content="https://www.Menu-Portage.fr"> 
     <meta property="og:title" content="Menu Portage – Livraison de Repas a Domicile dans les Vosges aux Retraité"/> 
     <meta property="og:description" content="Menu Portage offre un service de portage de repas équilibrés et délicieux spécialement conçus pour les  personnes âgées. Profitez de menus variés et nutritifs, livrés directement à domicile un confort optimal. Simplifiez votre quotidien avec Menu Portage."/>
     <meta property="og:site_name" content="Menu Portage – Service de Livraison de Repas pour Seniors."/>
-    <meta property="og:image" content="URL de l’image "/>
+    <meta property="og:image" content="assets/res/indexOG.svg"/>
 	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/essaie.css" />
 	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
 </head>
