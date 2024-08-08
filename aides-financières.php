@@ -16,16 +16,15 @@
     <meta name="twitter:site" content="@Menu-Portage"/>
     <meta name="twitter:title" content="Menu Portage – Aides financière pour repas à Domicile des Personnes Âgées"/>
     <meta name="twitter:description" content="Découvrez les aides financières pour les repas livrés à domicile des personnes âgées dans les Vosges avec Menu Portage. Devis personnalisés et options de paiement disponibles. #Finacement #AidesFinancières   #RepasSeniors #LivraisonRepas #Seniors #PersonnesÂgées#Vosges #Thaon #Charmes #Chavelot #Nomexy  "/>
-    <meta name="twitter:image" content src="assets/res/aidesfinancierestwitter.svg"/>
+    <meta name="twitter:image" content="assets/res/aidesfinancierestwitter.svg"/>
 	<meta property="og:type" content="webside"/>
-    <meta property="og:url" content=" https://www.Menu-Portage.fr">
+    <meta property="og:url" content="https://www.Menu-Portage.fr">
     <meta property="og:title" content="Menu Portage –  Aides Financières pour Repas Livrés dans les Vosges"/> 
     <meta property="og:description" content="Découvrez les aides financières disponibles pour le service portage des repas livrés à domiciles des personnes âgées fans les Vosges avec Menu Portage. Nous proposons des devis personnalisés et plusieurs option de paiement pour répondre à vos besoins"/>
-    <meta property="og:site_name" content=" Menu Portage"/>
+    <meta property="og:site_name" content="Menu Portage"/>
     <meta property="og:image" content="assets/res/aidesfinancieresOG.svg"/>
 	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/aidesfinancieres.css"/>
 	<link rel="icon" href="assets/res/logo_final.svg" type="image/svg">
- 
 </head>
 
 <body class="right-sidebar is-preload">

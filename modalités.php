@@ -11,11 +11,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="Informez-vous sur la préparation, le transport, le réchauffage et la conservation de vos repas livrés dans les Vosges. Nous veillons à la qualité et à la sécurité de chaque plat pour une expérience optimal.">
-    <meta name="keywords" content="Modalité, Préparation, Transport, Conservation ,Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux, Vosges">
+    <meta name="keywords" content="Modalité, Préparation, Transport, Conservation ,Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux, Vosges,Thaon, Charmes,  Chavelot, Châtel-sur-Moselle, Domèvre-sur-Durbion, Essegney, Frizon, Girmont , Hadigny-les-Verrières, Igney, Langley, Moriville, Nomexy, Pallegney, Portieux et La Verrerie de Portieux , Socourt, Vaxoncourt, Vincey">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@Menu-Portage"/>
     <meta name="twitter:title" content="Menu Portage – Modalités de Livraison des repas des retraités dans les Vosges"/>
-    <meta name="twitter:description" content="Découvrez comment nous préparons, transportons, réchauffons, et conservons vos repas livrés dans les Vosges pour garantir leur qualité et sécurité.Tout ce que vous devez savoir pour profiter pleinement de nos services "/>
+    <meta name="twitter:description" content="Découvrez comment nous préparons, transportons, réchauffons, et conservons vos repas livrés dans les Vosges pour garantir leur qualité et sécurité. Tout ce que vous devez savoir pour profiter pleinement de nos services "/>
     <meta name="twitter:image" content="assets/res/mobilité(1)twitter.svg"/>
     <meta property="og:type" content="webside"/>
     <meta property="og:url" content="https://www.Menu-Portage.fr">

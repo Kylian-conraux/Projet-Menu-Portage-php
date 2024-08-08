@@ -10,7 +10,7 @@
 	<title>Menu Portage – Notre Équipe Portage de repas pour les Retraité des Vosges</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="Découvrez notre équipe passionnée qui consacre à livrer des repas de qualités aux personnes âgées de Charmes. Chaque membre est formé pour offrir un service attentif respectueux et chaleureux ">
+	<meta name="description" content="Découvrez notre équipe passionnée qui consacre à livrer des repas de qualités aux personnes âgées de Charmes. Chaque membre est formé pour offrir un service attentif, respectueux et chaleureux ">
     <meta name="keywords" content="Équipe, Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé, Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux, Thaon, Charmes,  Chavelot, Châtel-sur-Moselle, Domèvre-sur-Durbion, Essegney, Frizon, Girmont , Hadigny-les-Verrières, Igney, Langley, Moriville, Nomexy, Pallegney, Portieux et La Verrerie de Portieux , Socourt, Vaxoncourt, Vincey" >
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@Menu-Portage"/>
@@ -20,7 +20,7 @@
 	<meta property="og:type" content="webside"/>
     <meta property="og:url" content="https://www.Menu-Portage.fr">
     <meta property="og:title" content="Menu Portage – Notre Équipe Portage de repas pour les Retraité des Vosges"/> 
-    <meta property="og:description" content="Découvrez notre équipe dévouée au portage de repas pour les senior à Charmes, Chavelot, Thaon... Nous assurons un service chaleureux et respectueux, adapté aux besoins spécifiques des chaque personne.">
+    <meta property="og:description" content="Découvrez notre équipe dévouée au portage de repas pour les senior du secteur Chamagne-Chavelot. Nous assurons un service chaleureux et respectueux, adapté aux besoins spécifiques de chaque personne.">
     <meta property="og:site_name" content="Menu Portage"/>
     <meta property="og:image" content="assets/res/equipeOG.svg"/>
 	<link rel="stylesheet" href="assets/css/main.css" />

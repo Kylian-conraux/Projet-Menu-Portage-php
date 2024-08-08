@@ -10,17 +10,17 @@
 	<title>Menu Portage – Menu Équilibré pour une Vie Saine </title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="Découvrez nos repas équilibrés et nutritifs, spécialement conçus pour les retraités. Menu Portage offre des plateaux repas délicieux, adaptés aux besoins des personnes âgées, livrés à domicile dans les Vosges pour une alimentation saine et pratique.">
-    <meta name="keywords" content="Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé" "Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux">
+	<meta name="description" content="Découvrez nos repas équilibrés et nutritifs, spécialement conçus pour les seniors. Menu Portage offre des plateaux repas délicieux, adaptés aux besoins des personnes âgées, livrés à domicile dans le secteur de Chamagne à Chavelot.">
+    <meta name="keywords" content="Repas, Menu, Portage, Livraison, Domicile, Personnes âgées, Service, Équilibrés, Seniors, Santé,Plateaux, Alimentaire, Troisième âge, Retraité, Nutritif, Équilibrés, Savoureux, Thaon, Charmes,  Chavelot, Châtel-sur-Moselle, Domèvre-sur-Durbion, Essegney, Frizon, Girmont , Hadigny-les-Verrières, Igney, Langley, Moriville, Nomexy, Pallegney, Portieux et La Verrerie de Portieux , Socourt, Vaxoncourt, Vincey">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@Menu-Portage"/>
     <meta name="twitter:title" content="Menu Portage – Repas Sains pour Personnes Âgées "/>
-    <meta name="twitter:description " content="Menu Portage propose des plateaux repas équilibrés et nutritifs spécialement pour les seniors. Livrés directement à votre domicile dans les Vosges.  "/>
+    <meta name="twitter:description" content="Menu Portage propose des plateaux repas équilibrés et nutritifs spécialement pour les personnes âgées. Livrés directement à votre domicile entre Chamagne et Chavelot."/>
     <meta name="twitter:image" content="assets/res/menutwitter.svg"/>
 	<meta property="og:type" content="webside"/>
     <meta property="og:url" content=" https://www.Menu-Portage.fr"> 
     <meta property="og:title" content="Menu Portage – Menu Équilibré pour une Vie Saine "/> 
-    <meta property="og:description" content="Menu Portage offre des plateaux repas équilibrés et nutritif pour les troisième âge, livrés à domicile dans les vosges. Savourez des plats délicieux et adaptés aux besoins des personnes âgées ."/>
+    <meta property="og:description" content="Menu Portage vous offre des plateaux repas équilibrés et nutritif pour les troisième âge, livrés à domicile dans les Vosges. Savourez des plats délicieux et adaptés aux besoins des personnes âgées ."/>
     <meta property="og:site_name" content="Menu Portage – Repas Équilibrés pour Seniors."/>
     <meta property="og:image" content="assets/res/menuOG.svg"/>
 	<link rel="stylesheet" href="/assets/css/main.css" />
