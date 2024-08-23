@@ -9,7 +9,7 @@
 		<!-- Nav -->
 		<nav id="nav">
 			<ul>
-				<li><a class="icon solid fa-home" href="/home"><span>Accueil</span></a></li>
+				<li><a class="icon solid fa-home" href="/"><span>Accueil</span></a></li>
 				<li><a class="icon solid fa-utensils" href="/menus"><span>Les menus</span></a></li>
 				<li><a class="icon solid fa-wallet" href="/aides-financieres"><span>Aides financières</span></a>
 				</li>

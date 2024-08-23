@@ -28,10 +28,10 @@ function deleteMenus($menu_id)
 
     try {
         $deleteMenu = $db->prepare('DELETE From Menus  where id = :menu_id');
-        $deleteMenu->bindValue(':menu_id', $menu_id, PDO::PARAM_STR);
+        $deleteMenu->bindValue(':menu_id', $menu_id, PDO::PARAM_INT);
         $deleteMenu->execute();
     } catch (PDOException $e) {
-
+        error_log($e->getMessage());
         exit;
     }
 }
@@ -45,6 +45,6 @@ function updateMenus($menu_id, $entree, $plat, $dessert, $date)
     $updateVille->bindValue(':plat', $plat, PDO::PARAM_STR);
     $updateVille->bindValue(':dessert', $dessert, PDO::PARAM_STR);
     $updateVille->bindValue(':date', $date, PDO::PARAM_STR);
-    $updateVille->bindValue(':menu_id', $menu_id, PDO::PARAM_STR);
+    $updateVille->bindValue(':menu_id', $menu_id, PDO::PARAM_INT);
     $updateVille->execute();
 }
