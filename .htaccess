@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On # utilisation du moteur de réecriture
+  RewriteRule ^(assets|images|css|js)($|/) - [L] # si chemin dans l'url, - on fait rien L arrêt des régles
+  RewriteRule ^index\.php$ - [L] # pour éviter que index.php soit réecrit, si c'est le bon, arrêt des régles
+  RewriteRule ^(.*[^/])$ /index.php?page=$1 [L,QSA] # réécriture suivant le patern, arrêt des règles, transmission des params dans l'url  
+</IfModule>
+

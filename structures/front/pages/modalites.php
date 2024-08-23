@@ -20,7 +20,7 @@
 
         <!-- Header -->
         <?php
-        include 'assets/include/header.php';
+        include 'structures/front/composantes/header.php';
         ?>
 
         <!-- Main -->
@@ -83,7 +83,7 @@
 
         <!-- Footer -->
         <?php
-        include "assets/include/footer.php";
+        include "structures/front/composantes/footer.php";
         ?>
 
     </div>

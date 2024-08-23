@@ -18,7 +18,7 @@
 
         <!-- Header -->
         <?php
-        include 'assets/include/header.php';
+        include 'structures/front/composantes/header.php';
         ?>
 
         <!-- Main -->
