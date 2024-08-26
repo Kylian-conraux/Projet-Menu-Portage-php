@@ -28,34 +28,44 @@ input[type="checkbox"] {
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-#submit{
+#submit {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.center{
+.center {
 	display: flex;
 	justify-content: center;
-	align-content:  center;
+	align-content: center;
 
 }
 
 .formule {
-    margin-left: 20px;
-    border-bottom: solid 2px #e5e5e5;
-    width: 100%;
+	margin-left: 20px;
+	border-bottom: solid 2px #e5e5e5;
+	width: 100%;
 }
 
-button{
+button {
 	margin: 2px;
 }
 
-.selected{
-	border : 1px;
-	background-color: blue ;
+.slider {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.buttRepasList {
-    flex-wrap: wrap;
+range-slider:before {
+	background: #ed786a !important;
+}
+
+.thumb {
+	background: #ca2412 !important;
+}
+
+output {
+	font-weight: 600;
+	text-align: center;
 }

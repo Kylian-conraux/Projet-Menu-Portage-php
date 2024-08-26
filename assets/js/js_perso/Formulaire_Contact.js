@@ -12,8 +12,6 @@ const formElementsAutres = {
     telAutre: document.getElementById("TelA"),
     emailAutre: document.getElementById("emailA")
 };
-const buttRepasList = document.querySelectorAll(".buttRepas");
-// Sélection des éléments du formulaire pour l'inscription générale
 const formElementsInsc = {
     rue: document.getElementById("rue")
 };
@@ -42,7 +40,6 @@ function initEventListeners() {
 
     //radioAutre.addEventListener('click', () => blockAutrePersonne.style.display = 'block');
     //radioMoi.addEventListener('click', () => blockAutrePersonne.style.display = 'none');
-    handleButtonClick(buttRepasList, "buttRepas", "repas");
     // Ajoute un écouteur d'événements sur le bouton de soumission
     submitButton.addEventListener('click', handleSubmit);
 }
@@ -100,15 +97,17 @@ adresseVille.addEventListener("change", function (event) {
     }
 });
 
-function handleButtonClick(buttonList, buttonType, buttonLabel) {
-    buttonList.forEach((button, index) => {
-        button.addEventListener('click', event => {
-            event.preventDefault();
-            console.log(`tu cliques sur le bouton : ${index + 1} ${buttonLabel}`);
-            if (!button.classList.contains("selected")) {
-                document.querySelector(`.${buttonType}.selected`).classList.remove("selected");
-                button.classList.add("selected");
-            }
-        });
-    });
-}
+//slider
+const repasSlider = document.querySelector(['#rangSlider']);
+repasSlider.insertAdjacentHTML('afterend', `
+    <output>${repasSlider.value} repas</output>
+  `);
+
+
+document.getElementById("rangSlider").addEventListener('input', e => {
+    const input = e.target;
+    const output = input.nextElementSibling;
+    if (output) {
+        output.textContent = input.value + " repas";
+    }
+});

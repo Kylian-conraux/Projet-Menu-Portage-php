@@ -9,6 +9,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/formulaire_Contact.css">
+    <link rel='stylesheet' href='https://unpkg.com/range-slider-element@latest/dist/styles.css'>
     <link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
     <title>Contact Menu Portage | Croustillance</title>
 </head>
@@ -46,21 +47,8 @@
                                 </div>
 
                                 <h5>Nombres de repas : </h5>
-                                <div class="col-12  center buttRepasList">
-                                    <button class="buttRepas selected" value="1">1</button>
-                                    <button class="buttRepas" value="2">2</button>
-                                    <button class="buttRepas" value="3">3</button>
-                                    <button class="buttRepas" value="4">4</button>
-                                    <button class="buttRepas" value="5">5</button>
-                                    <button class="buttRepas" value="6">6</button>
-                                    <button class="buttRepas" value="7">7</button>
-                                    <button class="buttRepas" value="8">8</button>
-                                    <button class="buttRepas" value="9">9</button>
-                                    <button class="buttRepas" value="10">10</button>
-                                    <button class="buttRepas" value="11">11</button>
-                                    <button class="buttRepas" value="12">12</button>
-                                    <button class="buttRepas" value="13">13</button>
-                                    <button class="buttRepas" value="14">14</button>
+                                <div class="col-12  center slider">
+                                    <range-slider min=1 max=14 step=1 value="7" id="rangSlider"></range-slider>
                                 </div>
 
 
@@ -210,6 +198,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src='https://unpkg.com/range-slider-element@latest'></script>
     <script src="assets/js/js_perso/formulaire.js"></script>
     <script src="assets/js/js_perso/Formulaire_Contact.js"></script>
     <script src="assets/js/js_perso/mapsLeaflet.js"></script>
