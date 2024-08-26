@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description"
 		content="Tous les détails sur la facturation des repas livrés à domicile, ainsi que les aides possibles : APA, caisses de retraite, mutuelles, etc." />
-	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/aidesfinancieres.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/simulateur.css" />
 	<link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
 </head>
