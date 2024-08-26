@@ -9,7 +9,7 @@
 
 		 <!-- Dynamic Text -->
 		  <br>
-		 <h2>
+		 <h1>
             <?php 
                 $current_page = basename($_SERVER['REQUEST_URI'], ".php");
                 switch ($current_page) {
@@ -37,7 +37,7 @@
                         break;
                 }
             ?>
-        </h2>
+        </h1>
 		<!-- Nav -->
 		<nav id="nav">
 			<ul>
