@@ -32,10 +32,6 @@
 
 					<!-- Post -->
 					<article class="box post">
-						<header>
-							<h2>Notre équipe dédiée au portage des repas</h2>
-						</header>
-
 						<!--ici commence le carousel-->
 						<div class="carousel">
 							<div class="carousel-personnes">
