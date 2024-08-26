@@ -56,10 +56,6 @@ button{
 	background-color: blue ;
 }
 
-.d-none{
-	display: none;
-}
-
 .buttRepasList {
     flex-wrap: wrap;
 }

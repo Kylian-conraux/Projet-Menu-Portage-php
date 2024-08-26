@@ -37,7 +37,7 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image table"><img src="/images/plat emporter.jpeg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/plat emporter.jpeg" alt="" /></a>
 							<header>
 								<h3>De bon petits plats</h3>
 							</header>
@@ -82,11 +82,7 @@
 		<section id="banner">
 			<div class="container">
 				<div class="background-images">
-					<img src="/images/Portage à domicile/equipe-traiteur-croustillance.jpg" alt="equipe">
-					<img src="/images/Portage à domicile/Catherine-portage-repas.jpg" alt="employé1">
-					<img src="/images/Portage à domicile/marc-cuisinier.jpg" alt="employé2">
-					<img src="/images/Portage à domicile/Sabina-service-table.jpg" alt="employé3">
-					<img src="/images/Portage à domicile/Sabrina-Denet.jpg" alt="employé4">
+					
 				</div>
 				<p>Portage de repas à domicile dans les vosges</p>
 			</div>
@@ -208,7 +204,7 @@
 						</section>
 
 						<!-- Highlights -->
-						<section>
+						<section class ="d-none">
 							<ul class="divided">
 								<li>
 
