@@ -358,7 +358,7 @@
 					</div>
 				</div>
 				<br>
-				<div class="row">
+				<div class="row center">
 					<button class="col-3 carousel-button carousel-button-left">&#10094;</button>
 
 					<div class="bubule col-3">

@@ -46,9 +46,13 @@
 
 }
 
+.center{
+    align-items: center;
+}
+
 .row {
     justify-content: space-evenly;
-    align-items: center;
+
 }
 
 .listeMenu * {
