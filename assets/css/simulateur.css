@@ -1,0 +1,41 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+button {
+    margin: 2px;
+}
+
+.selected {
+    border: 1px;
+    background-color: blue;
+}
+
+.d-none {
+    display: none;
+}
+
+.buttRepasList {
+    flex-wrap: wrap;
+}
+
+.formule {
+    margin-left: 20px;
+    border-bottom: solid 2px #e5e5e5;
+    width: 100%;
+}
+
+.radio {
+    margin: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    padding: 50px 0 0 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 20px;
+}

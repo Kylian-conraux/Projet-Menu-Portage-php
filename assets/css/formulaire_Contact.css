@@ -28,12 +28,6 @@ input[type="checkbox"] {
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.formule{
-	margin-left: 20px;
-	border-bottom: solid 2px #e5e5e5;
-	width: 100%;
-}
-
 #submit{
 	display: flex;
 	align-items: center;
@@ -45,6 +39,12 @@ input[type="checkbox"] {
 	justify-content: center;
 	align-content:  center;
 
+}
+
+.formule {
+    margin-left: 20px;
+    border-bottom: solid 2px #e5e5e5;
+    width: 100%;
 }
 
 button{
@@ -60,6 +60,6 @@ button{
 	display: none;
 }
 
-.buttRepasList{
-	flex-wrap: wrap;
+.buttRepasList {
+    flex-wrap: wrap;
 }

@@ -174,7 +174,7 @@
 
                                 <div class="col-12">
                                     <a id="submit" href="#" class="form-button-submit button icon solid fa-envelope">Contacter</a>
-                                    
+
                                 </div>
 
                                 <br>
@@ -186,65 +186,8 @@
 
 
                             </div>
-
-                            <div class="col-12 d-none">
-                                <!-- Sélection de la formule qu'une seul possible -->
-                                <h3>Formule : </h3><br>
-                                <div class="row formule">
-                                    <div class="row col-6 col-12-small">
-                                        <input id="formule-complète" name="formule" type="radio" value="Entrée Plat déssert" checked>
-                                        <label for="formule-complète">Entrée/Plat/Dessert</label>
-                                    </div>
-                                    <div class="row col-6 col-12-small">
-                                        <input id="formule-simple" name="formule" type="radio" value="Plat du jour">
-                                        <label for="formule-simple">Plat du jour</label>
-                                    </div>
-                                </div>
-                            </div><br>
-                            <div class="col-12 d-none">
-                                <!-- Suppléments: plusieurs possibles  -->
-                                <h3>Suppléments : </h3><br>
-                                <div class="row formule">
-                                    <div class="row col-4 col-12-small">
-                                        <input id="fromage" name="fromage" type="checkbox">
-                                        <label for="fromage">Fromage</label>
-                                    </div>
-                                    <div class="row col-4 col-12-small">
-                                        <input id="soupe" name="soupe" type="checkbox">
-                                        <label for="soupe">Soupe du jour</label>
-                                    </div>
-                                    <div class="row col-4 col-12-small">
-                                        <input id="baguette" name="baguette" type="checkbox">
-                                        <label for="baguette">1/2 Baguette</label>
-                                    </div>
-                                </div>
-                            </div><br>
-                            <div class="d-none">
-                                <h3>Indiquer le nombre de personnes et de repas : </h3>
-                                <div class="row">
-
-                                    <div class="center">
-                                        <h5>Personne(s) : </h5>
-                                    </div>
-                                    <div class="col-12 center buttPersList">
-                                        <button class="buttPers selected" value="1">1</button>
-                                        <button class="buttPers" value="2">2</button>
-                                        <button class="buttPers" value="3">3</button>
-                                        <button class="buttPers" value="4">4</button>
-                                        <button class="buttPers" value="5">5</button>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <br>
-                            <div class="center d-none">
-                                <h5 class="prix">Prix : 10.55 €</h5>
-                            </div>
-                            <br>
-
                         </form>
                     </section>
-
                 </div>
             </div>
         </section>
