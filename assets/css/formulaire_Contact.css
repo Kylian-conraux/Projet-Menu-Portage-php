@@ -57,6 +57,11 @@ button {
 	justify-content: center;
 }
 
+#rangSlider {
+	--track-height: 8px;
+	--thumb-size: 24px;
+  }
+
 range-slider:before {
 	background: #ed786a !important;
 }
