@@ -27,7 +27,7 @@
                 <div id="content">
                     <section>
                         <form id="formulaire" method="post" action="#">
-                            <h3>Qui commande : </h3>
+                            <h3>Contact : </h3>
                             <div class="row">
                                 <div class="col-6 col-12-small">
                                     <input id="nom" name="Fname" placeholder="Nom" type="text" />
@@ -41,22 +41,47 @@
                                 <div class="col-6 col-12-small">
                                     <input id="email" name="email" placeholder="Email" type="text" />
                                 </div>
-                                <div class="formule"></div>
+                                <div class="col-12">
+                                    <textarea name="message" placeholder="Message"></textarea>
+                                </div>
+
+                                <h5>Nombres de repas : </h5>
+                                <div class="col-12  center buttRepasList">
+                                    <button class="buttRepas selected" value="1">1</button>
+                                    <button class="buttRepas" value="2">2</button>
+                                    <button class="buttRepas" value="3">3</button>
+                                    <button class="buttRepas" value="4">4</button>
+                                    <button class="buttRepas" value="5">5</button>
+                                    <button class="buttRepas" value="6">6</button>
+                                    <button class="buttRepas" value="7">7</button>
+                                    <button class="buttRepas" value="8">8</button>
+                                    <button class="buttRepas" value="9">9</button>
+                                    <button class="buttRepas" value="10">10</button>
+                                    <button class="buttRepas" value="11">11</button>
+                                    <button class="buttRepas" value="12">12</button>
+                                    <button class="buttRepas" value="13">13</button>
+                                    <button class="buttRepas" value="14">14</button>
+                                </div>
+
+
+                                <!--  <div class="formule"></div> -->
                             </div><br>
 
                             <!-- Sélection qui est le destinataire -->
-                            <h3>Pour qui : </h3>
-                            <div class="row radio">
-                                <div class="col-6 col-12-small">
-                                    <div class="row">
-                                        <input type="radio" id="moi" name="qui" checked="true">
-                                        <label for="moi">Pour moi</label>
+                            <div class="d-none">
+                                <h3>Pour qui : </h3>
+                                <div class="row radio">
+                                    <div class="col-6 col-12-small">
+                                        <div class="row">
+                                            <input type="radio" id="moi" name="qui" checked="true">
+                                            <label for="moi">Pour moi</label>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-6 col-12-small">
-                                    <div class="row">
-                                        <input type="radio" id="autre" name="qui">
-                                        <label for="autre">Pour quelqu'un d'autre</label>
+                                    <div class="col-6 col-12-small">
+                                        <div class="row">
+                                            <input type="radio" id="autre" name="qui">
+                                            <label for="autre">Pour quelqu'un d'autre</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -106,10 +131,6 @@
 
                             <div class="col-12">
                                 <!-- sélection de l'adresse -->
-                                <div>
-                                    <!-- photo -->
-                                    <div id="map"></div><br>
-                                </div>
                                 <div class="col-12">
                                     <!-- liste des villes déservis -->
                                     <label for="villes">Adresse de livraison : </label>
@@ -150,6 +171,20 @@
                                         <input id="rue" name="rue" placeholder="Rue" type="text" /><br>
                                     </div>
                                 </div>
+
+                                <div class="col-12">
+                                    <a id="submit" href="#" class="form-button-submit button icon solid fa-envelope">Contacter</a>
+                                    
+                                </div>
+
+                                <br>
+
+                                <div class="d-none">
+                                    <!-- photo -->
+                                    <div id="map"></div><br>
+                                </div>
+
+
                             </div>
 
                             <div class="col-12 d-none">
@@ -184,39 +219,28 @@
                                     </div>
                                 </div>
                             </div><br>
-                            <h3>Indiquer le nombre de personnes et de repas : </h3>
-                            <div class="row">
+                            <div class="d-none">
+                                <h3>Indiquer le nombre de personnes et de repas : </h3>
+                                <div class="row">
 
-                                <div class="center">
-                                    <h5>Personne(s) : </h5>
-                                </div>
-                                <div class="col-12 center buttPersList">
-                                    <button class="buttPers selected" value="1">1</button>
-                                    <button class="buttPers" value="2">2</button>
-                                    <button class="buttPers" value="3">3</button>
-                                    <button class="buttPers" value="4">4</button>
-                                    <button class="buttPers" value="5">5</button>
+                                    <div class="center">
+                                        <h5>Personne(s) : </h5>
+                                    </div>
+                                    <div class="col-12 center buttPersList">
+                                        <button class="buttPers selected" value="1">1</button>
+                                        <button class="buttPers" value="2">2</button>
+                                        <button class="buttPers" value="3">3</button>
+                                        <button class="buttPers" value="4">4</button>
+                                        <button class="buttPers" value="5">5</button>
+                                    </div>
                                 </div>
 
-                                <h5>Repas par personne : </h5>
-                                <div class="col-12 center buttRepasList">
-                                    <button class="buttRepas selected" value="1">1</button>
-                                    <button class="buttRepas" value="2">2</button>
-                                    <button class="buttRepas" value="3">3</button>
-                                    <button class="buttRepas" value="4">4</button>
-                                    <button class="buttRepas" value="5">5</button>
-                                    <button class="buttRepas" value="6">6</button>
-                                    <button class="buttRepas" value="7">7</button>
-                                </div>
                             </div>
                             <br>
                             <div class="center d-none">
                                 <h5 class="prix">Prix : 10.55 €</h5>
                             </div>
                             <br>
-                            <div class="col-12">
-                                <a id="submit" href="#" class="form-button-submit button icon solid fa-envelope">Inscription</a>
-                            </div>
 
                         </form>
                     </section>
