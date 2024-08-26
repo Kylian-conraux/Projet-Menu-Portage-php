@@ -46,7 +46,7 @@
 
 }
 
-.center{
+.center {
     align-items: center;
 }
 
@@ -71,6 +71,10 @@
 #banner {
     border-top: 0;
     padding: 5em 0;
+}
+
+#banner>p {
+        letter-spacing: 2px;
 }
 
 .bubule {

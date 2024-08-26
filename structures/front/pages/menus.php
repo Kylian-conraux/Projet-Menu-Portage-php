@@ -32,6 +32,7 @@
 
 			<!-- Main -->
 			<section id="banner">
+				<p>Menu de la semaine</p>
 				<!-- Carrousel des menu  -->
 				<div class="row">
 					<div class="carrousel col-12">
