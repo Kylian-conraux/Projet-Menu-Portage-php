@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/formulaire_Contact.css">
+    <link rel="stylesheet" href="assets/css/formulaire_Contact_simulateur.css">
     <link rel='stylesheet' href='https://unpkg.com/range-slider-element@latest/dist/styles.css'>
     <link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
     <title>Contact Menu Portage | Croustillance</title>
@@ -28,7 +28,7 @@
                 <div id="content">
                     <section>
                         <form id="formulaire" method="post" action="#">
-                            <h3>Contact : </h3>
+                            <h5>Contact : </h5><br>
                             <div class="row">
                                 <div class="col-6 col-12-small">
                                     <input id="nom" name="Fname" placeholder="Nom" type="text" />
@@ -42,8 +42,9 @@
                                 <div class="col-6 col-12-small">
                                     <input id="email" name="email" placeholder="Email" type="text" />
                                 </div>
+                                <h5>Informations complémentaires : </h5>
                                 <div class="col-12">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Ville, allergènes, remarques ..."></textarea>
                                 </div>
 
                                 <h5>Nombres de repas : </h5>
@@ -117,7 +118,7 @@
 
                                 </div>-->
 
-                            <div class="col-12">
+                            <div class="col-12 d-none">
                                 <!-- sélection de l'adresse -->
                                 <div class="col-12">
                                     <!-- liste des villes déservis -->
@@ -159,19 +160,14 @@
                                         <input id="rue" name="rue" placeholder="Rue" type="text" /><br>
                                     </div>
                                 </div>
-
-                                <div class="col-12">
-                                    <a id="submit" href="#" class="form-button-submit button icon solid fa-envelope">Contacter</a>
-
-                                </div>
-
                                 <br>
-
                                 <div class="d-none">
                                     <!-- photo -->
                                     <div id="map"></div><br>
                                 </div>
-
+                            </div>
+                            <div class="col-12">
+                                <a id="submit" href="#" class="form-button-submit button icon solid fa-envelope">Contacter</a>
 
                             </div>
                         </form>

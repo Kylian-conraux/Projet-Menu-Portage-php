@@ -60,7 +60,7 @@ button {
 #rangSlider {
 	--track-height: 8px;
 	--thumb-size: 24px;
-  }
+}
 
 range-slider:before {
 	background: #ed786a !important;
@@ -73,4 +73,14 @@ range-slider:before {
 output {
 	font-weight: 600;
 	text-align: center;
+}
+
+.selected {
+	border: 1px;
+	background-color: #2d698c;
+}
+
+
+.buttRepasList {
+	flex-wrap: wrap;
 }
