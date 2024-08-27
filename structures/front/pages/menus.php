@@ -502,6 +502,7 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/js_perso/carrousel.js"></script>
+	<script src="assets/js/js_perso/carrousel-accueil.js"></script>
 	<script src="assets/js/js_perso/carrousel-Menu.js"></script>
 
 </body>

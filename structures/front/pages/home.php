@@ -10,7 +10,8 @@
 	<title>Portage de repas à domicile dans les Vosges | Croustillance</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" href="assets/css/essaie.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/carrousel_Menu_equipe.css">
 	<link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
 </head>
 
@@ -77,11 +78,143 @@
 
 		<!-- Banner -->
 		<section id="banner">
+			<!-- Apporte un style avec de crochet sur chaque coté
 			<div class="container">
-				<div class="background-images">
-
+				<div class="background-images">		
 				</div>
 				<p>Portage de repas à domicile dans les vosges</p>
+			</div>-->
+			<div class="carrousel col-12">
+				<div class="carrousel-inner">
+					<div class="item-carrousel">
+						<div class="Jour">
+							<h6>Lundi</h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									-
+								</li>
+								<li class="plat">
+									-
+								</li>
+								<li class="dessert">
+									-
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="item-carrousel">
+						<div class="Jour">
+							<h6>Mardi</h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									-
+								</li>
+								<li class="plat">
+									-
+								</li>
+								<li class="dessert">
+									-
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-carrousel">
+						<div class="Jour">
+							<h6>Mercredi</h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									-
+								</li>
+								<li class="plat">
+									-
+								</li>
+								<li class="dessert">
+									-
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-carrousel">
+						<div class="Jour">
+							<h6>Jeudi</h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									-
+								</li>
+								<li class="plat">
+									-
+								</li>
+								<li class="dessert">
+									-
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-carrousel">
+						<div class="Jour">
+							<h6>Vendredi</h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									-
+								</li>
+								<li class="plat">
+									-
+								</li>
+								<li class="dessert">
+									-
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-carrousel">
+						<div class="Jour">
+							<h6>Samedi</h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									-
+								</li>
+								<li class="plat">
+									-
+								</li>
+								<li class="dessert">
+									-
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item-carrousel">
+						<div class="Jour">
+							<h6>Dimanche</h6>
+							<ul class="listeMenu">
+								<li class="entrée">
+									-
+								</li>
+								<li class="plat">
+									-
+								</li>
+								<li class="dessert">
+									-
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row center">
+				<button class="col-3 carousel-button carousel-button-left">&#10094;</button>
+
+				<div class="bubule col-3">
+					<span class="dot" onclick="currentIndex = 0"></span>
+					<span class="dot" onclick="currentIndex = 1"></span>
+					<span class="dot" onclick="currentIndex = 2"></span>
+					<span class="dot" onclick="currentIndex = 3"></span>
+					<span class="dot" onclick="currentIndex = 4"></span>
+					<span class="dot" onclick="currentIndex = 5"></span>
+					<span class="dot" onclick="currentIndex = 6"></span>
+				</div>
+
+				<button class="col-3 carousel-button carousel-button-right">&#10095;</button>
 			</div>
 		</section>
 
@@ -262,7 +395,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script src="assets/js/js_perso/carrousel.js"></script>
+	<script src="assets/js/js_perso/carrousel-accueil.js"></script>
 </body>
 
 </html>
