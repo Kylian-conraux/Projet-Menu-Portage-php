@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE HTML>
 <!--
 	Strongly Typed by HTML5 UP
@@ -37,7 +34,7 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image featured"><img src="/images/plat emporter.jpeg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/plat santé.jpg" alt="" /></a>
 							<header>
 								<h3>De bon petits plats</h3>
 							</header>
@@ -82,7 +79,7 @@
 		<section id="banner">
 			<div class="container">
 				<div class="background-images">
-					
+
 				</div>
 				<p>Portage de repas à domicile dans les vosges</p>
 			</div>
@@ -120,7 +117,7 @@
 							<header>
 								<h2><a href="#">des repas <strong>savoureux</strong> et adaptés à votre état de <strong>santé !</strong></a></h2>
 							</header>
-							<a href="#" class="image featured"><img src="/images/plat santé.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/plat emporter.jpeg" alt="" /></a>
 							<p>Vos repas sont préparés par<strong> Marc </strong>, un cuisinier très expérimenté, puisqu’il s’active derrière les fourneaux depuis plus de 45 ans ! Méthodique et intraitable sur le respect des règles d’hygiène, Marc prépare unecuisine familiale et équilibrée avec des produits de qualité. <strong>repas sont adaptés à vos goûts, et éventuellement aux consignes des médecins. Nous fournissons sur simple demande des plats </strong> :
 								<li>Sans chou ni épinards pour les personnes traitées par AVK.</li>
 								<li>Sans poisson.</li>
@@ -204,7 +201,7 @@
 						</section>
 
 						<!-- Highlights -->
-						<section class ="d-none">
+						<section class="d-none">
 							<ul class="divided">
 								<li>
 
