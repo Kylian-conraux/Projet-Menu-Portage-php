@@ -157,9 +157,8 @@ function afficherDansCarrouselAccueil() {
 
 }
 const currentPath = window.location.pathname;
-console.log(currentPath);
 
-if (currentPath === '/' || currentPath ==='/home'){
+if (currentPath === '/' || currentPath === '/home') {
     afficherDansCarrouselAccueil();
     document.addEventListener('DOMContentLoaded', () => {
         initializeCarousel(currentIndex);
