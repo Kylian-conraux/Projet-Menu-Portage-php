@@ -74,7 +74,7 @@
 }
 
 #banner>p {
-        letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 .bubule {
@@ -107,4 +107,29 @@
     .Jour {
         text-align: start;
     }
+}
+
+
+/* carrousel de l'équipe : */
+
+.carousel-text>p {
+    letter-spacing: 0 !important;
+    font-size: 1em !important;
+    text-transform: none !important;
+    line-height: 1.25em !important;
+}
+
+.item-carrousel>.box {
+    margin-bottom: 0.5em !important;
+}
+
+.box>.image {
+    margin: 0 0 0.5em 0 !important;
+}
+
+.carousel-text {
+    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+
+
 }

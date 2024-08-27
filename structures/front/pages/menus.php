@@ -11,7 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/css/main.css" />
-	<link rel="stylesheet" href="/assets/css/carrousel-Menu.css">
+	<link rel="stylesheet" href="/assets/css/carrousel_Menu_equipe.css">
 
 
 	<meta name="description" content="Notre chef Marc concocte une cuisine familiale, savoureuse et variée. Découvrez nos formules tarifaires et les services en option.">
@@ -363,9 +363,9 @@
 					<button class="col-3 carousel-button carousel-button-left">&#10094;</button>
 
 					<div class="bubule col-3">
-						<span class="dot" onclick="currentSlide(0)"></span>
-						<span class="dot" onclick="currentSlide(1)"></span>
-						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentIndex = 0"></span>
+						<span class="dot" onclick="currentIndex = 1"></span>
+						<span class="dot" onclick="currentIndex = 2"></span>
 					</div>
 
 					<button class="col-3 carousel-button carousel-button-right">&#10095;</button>
@@ -501,6 +501,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/js_perso/carrousel.js"></script>
 	<script src="assets/js/js_perso/carrousel-Menu.js"></script>
 
 </body>

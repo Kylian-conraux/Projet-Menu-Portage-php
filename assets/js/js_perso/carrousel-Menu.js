@@ -185,49 +185,6 @@ function afficherDansCarrouselMenu() {
 // Appel de la fonction pour afficher les menus dans le carrousel
 afficherDansCarrouselMenu();
 
-
-/*
-    Gestion du carrousel 
- */
-
 document.addEventListener('DOMContentLoaded', () => {
-    const carouselInner = document.querySelector('.carrousel-inner');
-    console.log(carouselInner.classList);
-    const items = document.querySelectorAll('.item-carrousel');
-    const totalItems = items.length;
-    let currentIndex = 1; // Initial index set to the middle item
-
-    document.querySelector('.carousel-button-right').addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % totalItems;
-        updateCarousel();
-    });
-
-    document.querySelector('.carousel-button-left').addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + totalItems) % totalItems;
-        updateCarousel();
-    });
-
-    document.querySelectorAll('.dot').forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-            currentIndex = index;
-            updateCarousel();
-        });
-    });
-
-    function updateCarousel() {
-        const offset = -currentIndex * 100;
-        carouselInner.style.transform = `translateX(${offset}%)`;
-
-        document.querySelectorAll('.dot').forEach((dot, index) => {
-            if (index === currentIndex) {
-                dot.classList.add('active-dot');
-            } else {
-                dot.classList.remove('active-dot');
-            }
-        });
-    }
-
-    // Initialize carousel to the middle item
-    updateCarousel();
-
+    initializeCarousel(1);
 });
