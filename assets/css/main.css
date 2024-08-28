@@ -2426,7 +2426,7 @@ ul.icons {
 						display: block;
 						width: 60px;
 						height: 40px;
-						background: rgba(232, 232, 232, 0.9);
+						background:#2d698c ;
 						border-radius: 4px;
 						position: absolute;
 						left: 5px;
@@ -2435,7 +2435,7 @@ ul.icons {
 						text-align: center;
 						line-height: 40px;
 						font-size: 18px;
-						color: #aaa;
+						color: #d66826;
 					}
 
 					#titleBar .toggle:active:before {
