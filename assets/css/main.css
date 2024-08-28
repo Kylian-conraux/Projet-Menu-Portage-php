@@ -105,8 +105,8 @@ input[type="text"], input[type="password"], select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro';
-		font-weight: 300;
-		color: #777;
+		/*font-weight: 300;*/
+		color: #000000;
 		line-height: 1.65em;
 		font-size: 15pt;
 	}
@@ -114,7 +114,7 @@ input[type="text"], input[type="password"], select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #000000;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -142,7 +142,7 @@ input[type="text"], input[type="password"], select, textarea {
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: #666;
+		color: #000000;
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
 	}
@@ -165,7 +165,7 @@ input[type="text"], input[type="password"], select, textarea {
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #000000;
 	}
 
 	em, i {
@@ -1623,7 +1623,8 @@ input[type="text"], input[type="password"], select, textarea {
 
 /* Icons */
 
-	ul.icons {
+
+ul.icons {
 		list-style: none;
 		padding-left: 0;
 	}
@@ -1967,14 +1968,14 @@ input[type="text"], input[type="password"], select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: #2d698c;
 				outline: 0;
 				display: block;
 			}
 
 				#nav > ul > li > a:before {
 					display: inline-block;
-					background: #878787;
+					background: #2d698c;
 					color: #e4e4e4;
 					width: 2.25em;
 					font-size: 0.8em;
@@ -1997,8 +1998,8 @@ input[type="text"], input[type="password"], select, textarea {
 					-o-transition: color 0.25s ease-in-out;
 					-ms-transition: color 0.25s ease-in-out;
 					transition: color 0.25s ease-in-out;
-					font-size: 0.85em;
-					letter-spacing: 3px;
+					font-size: 1.20em;
+					letter-spacing: 2px;
 				}
 
 			#nav > ul > li > ul {
