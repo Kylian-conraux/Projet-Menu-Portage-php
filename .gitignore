@@ -1,2 +1,4 @@
 assets/include/db.php
+models/db.php
+db.php
 sftp.jons
