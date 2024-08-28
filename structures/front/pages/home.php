@@ -85,8 +85,8 @@
 				<p>Portage de repas à domicile dans les vosges</p>
 			</div>-->
 			<div class="carrousel col-12">
-				<div class="carrousel-inner">
-					<div class="item-carrousel">
+				<div class="carrousel-inner carrousel_custom_accueil">
+					<div class="item-carrousel ">
 						<div class="Jour">
 							<h6>Lundi</h6>
 							<ul class="listeMenu">
@@ -203,17 +203,6 @@
 			</div>
 			<div class="row center">
 				<button class="col-3 carousel-button carousel-button-left">&#10094;</button>
-
-				<div class="bubule col-3">
-					<span class="dot" onclick="currentIndex = 0"></span>
-					<span class="dot" onclick="currentIndex = 1"></span>
-					<span class="dot" onclick="currentIndex = 2"></span>
-					<span class="dot" onclick="currentIndex = 3"></span>
-					<span class="dot" onclick="currentIndex = 4"></span>
-					<span class="dot" onclick="currentIndex = 5"></span>
-					<span class="dot" onclick="currentIndex = 6"></span>
-				</div>
-
 				<button class="col-3 carousel-button carousel-button-right">&#10095;</button>
 			</div>
 		</section>

@@ -95,12 +95,25 @@ function initializeCarousel(startIndex = 0) {
     }
 
     function updateCarousel() {
-        const offset = -currentIndex * 100;
-        carouselInner.style.transform = `translateX(${offset}%)`;
+        const items = document.querySelectorAll('.item-carrousel');
+        let offset = 0;
 
-        dots.forEach((dot, index) => {
-            dot.classList.toggle('active-dot', index === currentIndex);
-        });
+        // Calculer l'offset cumulé des items précédents
+        for (let i = 0; i < currentIndex; i++) {
+            offset += items[i].offsetWidth;
+        }
+
+        // Appliquer la translation en utilisant l'offset calculé
+        carouselInner.style.transform = `translateX(-${offset}px)`;
+
+        // Mettre à jour l'état des dots
+        const currentPath = window.location.pathname;
+        if (!(currentPath === '/' || currentPath === '/home')) {
+
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active-dot', index === currentIndex);
+            });
+        }
     }
 
     updateCarousel();

@@ -13,6 +13,7 @@ const menus = [
     { date: "2024-07-29", entree: "Salade de lentilles", plat: "Poulet basquaise", dessert: "Clafoutis aux cerises" },
     { date: "2024-07-30", entree: "Tartare de tomates et mozzarella", plat: "Blanquette de veau", dessert: "Île flottante" },
     { date: "2024-07-31", entree: "Croustillants de chèvre", plat: "Sauté de porc à la moutarde", dessert: "Tiramisu" },
+
     { date: "2024-08-01", entree: "Velouté de potiron", plat: "Sole meunière", dessert: "Eclair au chocolat" },
     { date: "2024-08-02", entree: "Pâté en croûte", plat: "Rôti de veau aux morilles", dessert: "Tarte aux fruits rouges" },
     { date: "2024-08-03", entree: "Carpaccio de bœuf", plat: "Côtelettes d'agneau", dessert: "Profiteroles" },
@@ -27,8 +28,6 @@ const menus = [
     { date: "2024-08-12", entree: "Tartelette au chèvre et miel", plat: "Pâtes aux truffes", dessert: "Soufflé au Grand Marnier" },
     { date: "2024-08-13", entree: "Moules marinières", plat: "Coq au Riesling", dessert: "Riz au lait" },
     { date: "2024-08-14", entree: "Velouté de champignons", plat: "Curry de légumes", dessert: "Pêches rôties au miel" },
-
-    // Nouvelles dates
     { date: "2024-08-15", entree: "Salade de betteraves", plat: "Gratin dauphinois", dessert: "Gâteau au chocolat" },
     { date: "2024-08-16", entree: "Tartare de saumon", plat: "Boeuf Wellington", dessert: "Crème caramel" },
     { date: "2024-08-17", entree: "Salade de concombres", plat: "Côtelettes de porc", dessert: "Charlotte aux fruits" },
