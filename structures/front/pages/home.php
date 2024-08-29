@@ -220,7 +220,7 @@
 							<header>
 								<h2><a href="#">de bon petits plas de <strong>qualité supérieur.</strong> </h2>
 							</header>
-							<a href="#" class="image featured"><img src="/images/Portage à domicile/Préparation des barquettes (1).jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/Portage à domicile/Préparation des barquettes (1).jpg" loading="lazy" alt="" /></a>
 
 							<p> Menu Portage, <strong> traiteur et créateur de saveurs </strong> dans les Vosges depuis 10 ans, propose un service de<strong>livraison de repas à domicile destiné aux personnes âgées, handicapées ou en perte d’autonomie. </strong> Vous n’avez pas le cœur à cuisiner pour vous tout seul ? Votre conjoint qui prépare habituellement les repas est absent pour quelques jours, parti en maison de retraite ou en EHPAD ? Grâce à notre service <strong>Menu Portage</strong> , faites-vous livrer à domicile des plats gourmands et équilibrés, concoctés dans notre <strong>laboratoire de Nomexy </strong> :
 							<ul>
@@ -241,7 +241,7 @@
 							<header>
 								<h2><a href="#">des repas <strong>savoureux</strong> et adaptés à votre état de <strong>santé !</strong></a></h2>
 							</header>
-							<a href="#" class="image featured"><img src="/images/plat emporter.jpeg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/plat emporter.jpeg"  loading="lazy" alt="" /></a>
 							<p>Vos repas sont préparés par<strong> Marc </strong>, un cuisinier très expérimenté, puisqu’il s’active derrière les fourneaux depuis plus de 45 ans ! Méthodique et intraitable sur le respect des règles d’hygiène, Marc prépare unecuisine familiale et équilibrée avec des produits de qualité. <strong>repas sont adaptés à vos goûts, et éventuellement aux consignes des médecins. Nous fournissons sur simple demande des plats </strong> :
 							<ul>
 								<li>Sans chou ni épinards pour les personnes traitées par AVK.</li>
@@ -260,7 +260,7 @@
 							<header>
 								<h2><a href="#">bien plus qu'une simple <strong>livraison à domicile !</strong> </a></h2>
 							</header>
-							<a href="#" class="image featured"><img src="/images/livraisonrepas.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="/images/livraisonrepas.jpg" loading="lazy" alt="" /></a>
 							<p>Nos porteuses passent chez vous de 1 à 6 fois par semaine, tous les jours à la même heure (le repas du dimanche est livré le samedi).
 
 
