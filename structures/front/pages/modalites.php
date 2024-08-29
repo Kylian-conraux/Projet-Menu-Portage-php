@@ -4,12 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="fr">
 
 <head>
     <title>La livraison de repas en pratique | Menu Portage (Croustillance)</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" value="Retrouvez ici la réponse à vos questions pratiques sur les livraisons de repas : préparation, transport, réchauffage, conservation des plats, etc." />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
@@ -44,12 +44,14 @@
                         <p>Nos repas sont ensuite transportés sous température dirigée dans des <strong> camionnettes
                                 frigorifiques</strong> régulièrement contrôlées et qui respectent la norme</p>
                         <p>FRAX :
+                        <ul>
                             <li>« F » pour <strong> F</strong>rigorifique.</li>
                             <li>« R » car l’isolation est <strong>R</strong>enforcée.</li>
                             <li>La lettre A désigne des véhicules dont la température à l’intérieur du caisson peut
                                 atteindre 0 à 12 °C.</li>
                             <li>Enfin, la lettre X signifie que le groupe de froid est alimenté par le moteur de la
                                 camionnette.</li>
+                        </ul>
                         </p>
                         <p>Le respect de toutes ces normes vous garantit des <strong> plats sains et sans risque pour la santé</strong>.
                         </p>
@@ -57,15 +59,19 @@
 
                         <p>Tous nos plats sont livrés dans des <strong>barquettes plastiques thermoscellées</strong>. Suivant vos
                             habitudes et votre équipement, vous pouvez les réchauffer :
+                        <ul>
                             <li>Au micro-ondes, après avoir percé quelques trous dans l’opercule.</li>
                             <li>Au bain-marie. </li>
+                        </ul>
                         </p>
                         <h3>La conservation des plateaux-repas</h3>
                         <p>Tous nos plats cuisinés peuvent se conserver <strong> 48 h au réfrigérateur </strong> en toute sécurité. Pour
                             vous aider à mieux gérer les plats non consommés, nous collons sur chaque barquette une
                             étiquette précisant :
+                        <ul>
                             <li>La date de fabrication du plat.</li>
                             <li>Sa date limite de consommation (DLC).</li>
+                        </ul>
                         </p>
                         <p>Vous nous passez commande pour une personne atteinte de troubles cognitifs comme la maladie
                             d’Alzheimer ? Si vous le souhaitez, nos porteuses rangent les nouveaux repas au frigo et

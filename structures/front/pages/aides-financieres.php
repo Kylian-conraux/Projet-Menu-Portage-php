@@ -4,12 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="fr">
 
 <head>
 	<title>Menu Portage : la facturation et les aides | Croustillance</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description"
 		content="Tous les détails sur la facturation des repas livrés à domicile, ainsi que les aides possibles : APA, caisses de retraite, mutuelles, etc." />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -47,10 +47,12 @@
 							<p>Nous transmettons également sur simple demande une copie de la facture à tout organisme
 								ou institution prenant en charge une partie des repas.</p>
 							<p>Pour le paiement, vous avez le choix entre plusieurs solutions :
+								<ul>
 								<li>Chèque.</li>
 								<li>Virement.</li>
 								<li>Espèces. Vous pouvez remettre directement votre paiement à nos livreuses, en qui
 									nous avons toute confiance.</li>
+									</ul>
 							</p>
 							<h3>Les aides possibles : </h3>
 

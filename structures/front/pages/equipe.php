@@ -4,12 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang=fr>
 
 <head>
 	<title>Notre équipe dédiée au portage des repas | Croustillance</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description"
 		value="Croustillance met à votre disposition une équipe dédiée au portage des repas. Faites connaissance avec Marc, Catherine et nos 2 Sabrina !" />
 	<link rel="stylesheet" href="assets/css/main.css" />
