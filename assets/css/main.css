@@ -1798,7 +1798,7 @@ ul.icons {
 		.button.icon:before {
 			position: relative;
 			padding-right: 0.75em;
-			opacity: 0.5;
+			opacity: 1;
 			top: 0.05em;
 		}
 
@@ -1849,7 +1849,7 @@ ul.icons {
 	}
 
 	.box.excerpt .date {
-		background: #878787;
+		background: rgb(90, 88, 88);
 		color: #fff;
 		font-weight: 400;
 		text-transform: uppercase;

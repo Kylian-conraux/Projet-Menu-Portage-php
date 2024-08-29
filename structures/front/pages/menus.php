@@ -4,12 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="fr">
 
 <head>
 	<title>Nos menus livrés à domicile | Menu Portage par Croustillance</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="/assets/css/main.css" />
 	<link rel="stylesheet" href="/assets/css/carrousel_Menu_equipe.css">
 
@@ -452,9 +452,11 @@
 							<h3>3 formules tarifaires et une bonne dose de souplesse</h3>
 							<p>Avec notre service de portage à domicile, oubliez les formules d’abonnement
 								contraignantes ! Suivant votre budget et votre appétit, vous avez le choix entre :
+							<ul>
 								<li>Un plat du jour avec une viande ou un poisson, des légumes et des féculents.</li>
 								<li>Une entrée et un plat.</li>
 								<li>Un plat et un dessert.</li>
+							</ul>
 							</p>
 
 							<p>Chaque semaine, vous pouvez retrouver le détail des menus proposés sur la <a href="#">
@@ -474,9 +476,11 @@
 							<h3>Les suppléments</h3>
 							<p>Pour compléter votre déjeuner ou servir de base à votre dîner, nous pouvons ajouter à
 								votre repas des <strong>suppléments au choix</strong> :
+							<ul>
 								<li>Une portion de fromage.</li>
 								<li>La Soupe du jour.</li>
 								<li>Une demi-baguette.</li>
+							</ul>
 							</p>
 
 						</article>

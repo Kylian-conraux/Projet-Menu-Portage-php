@@ -4,12 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="fr">
 
 <head>
 	<title>Portage de repas à domicile dans les Vosges | Croustillance</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/carrousel_Menu_equipe.css">
 	<link rel="icon" href="assets/css/images/logo_final.svg" type="image/svg">
@@ -223,11 +223,13 @@
 							<a href="#" class="image featured"><img src="/images/Portage à domicile/Préparation des barquettes (1).jpg" alt="" /></a>
 
 							<p> Menu Portage, <strong> traiteur et créateur de saveurs </strong> dans les Vosges depuis 10 ans, propose un service de<strong>livraison de repas à domicile destiné aux personnes âgées, handicapées ou en perte d’autonomie. </strong> Vous n’avez pas le cœur à cuisiner pour vous tout seul ? Votre conjoint qui prépare habituellement les repas est absent pour quelques jours, parti en maison de retraite ou en EHPAD ? Grâce à notre service <strong>Menu Portage</strong> , faites-vous livrer à domicile des plats gourmands et équilibrés, concoctés dans notre <strong>laboratoire de Nomexy </strong> :
+							<ul>
 								<li>Entrée</li>
 								<li>Plat</li>
 								<li>Dessert</li>
 								<li>En option : potage, fromage, pains frais, etc</li>
-								Vous avez le choix entre plusieurs formules tarifaires très ajustées, et le service est d’une grande souplesse. Vous pouvez vous faire livrer durant quelques jours seulement, après une sortie d’hôpital par exemple, une ou plusieurs fois par semaine, etc.
+							</ul>
+							Vous avez le choix entre plusieurs formules tarifaires très ajustées, et le service est d’une grande souplesse. Vous pouvez vous faire livrer durant quelques jours seulement, après une sortie d’hôpital par exemple, une ou plusieurs fois par semaine, etc.
 							</p>
 							<ul class="actions">
 								<li><a href="#" class="button icon solid fa-file">découvrez nos menus</a></li>
@@ -241,11 +243,13 @@
 							</header>
 							<a href="#" class="image featured"><img src="/images/plat emporter.jpeg" alt="" /></a>
 							<p>Vos repas sont préparés par<strong> Marc </strong>, un cuisinier très expérimenté, puisqu’il s’active derrière les fourneaux depuis plus de 45 ans ! Méthodique et intraitable sur le respect des règles d’hygiène, Marc prépare unecuisine familiale et équilibrée avec des produits de qualité. <strong>repas sont adaptés à vos goûts, et éventuellement aux consignes des médecins. Nous fournissons sur simple demande des plats </strong> :
+							<ul>
 								<li>Sans chou ni épinards pour les personnes traitées par AVK.</li>
 								<li>Sans poisson.</li>
 								<li>Sans viande </li>
 								<li>Sans fibres</li>
 								<li>Avec des textures adaptées : repas hachés, moulinés, etc.</li>
+							</ul>
 							</p>
 							<ul class="actions">
 								<li><a href="#" class="button icon solid fa-file">Découvrez nos menus</a></li>
