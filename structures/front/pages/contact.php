@@ -196,7 +196,7 @@
     <script src="assets/js/main.js"></script>
     <script src='https://unpkg.com/range-slider-element@latest'></script>
     <script src="assets/js/js_perso/formulaire.js"></script>
-    <script src="assets/js/js_perso/Formulaire_Contact.js"></script>
+    <script src="assets/js/js_perso/formulaire_Contact.js"></script>
     <script src="assets/js/js_perso/mapsLeaflet.js"></script>
 </body>
 
