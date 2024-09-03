@@ -118,7 +118,7 @@
 
                                 </div>-->
 
-                            <div class="col-12 d-none">
+                            <div class="col-12">
                                 <!-- sélection de l'adresse -->
                                 <div class="col-12">
                                     <!-- liste des villes déservis -->

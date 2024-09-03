@@ -14,7 +14,6 @@
             $current_page = basename($_SERVER['REQUEST_URI'], ".php");
             switch ($current_page) {
                 case '':
-                case 'index':
                     echo "Service Traiteur et livraison";
                     break;
                 case 'menus':
