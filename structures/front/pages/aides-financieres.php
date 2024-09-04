@@ -195,7 +195,7 @@
 						</div>
 						<br>
 						<div class="center">
-							<h5 class="prix">Prix : 10.55 €</h5>
+							<h5 class="prix">Prix : 11.10 €</h5>
 						</div>
 						<br>
 					</div>
