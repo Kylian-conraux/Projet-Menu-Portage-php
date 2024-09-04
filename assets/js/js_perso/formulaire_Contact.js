@@ -1,31 +1,9 @@
-// Sélection des éléments radio pour déterminer pour qui est le formulaire
-const radioAutre = document.getElementById("autre");
-const radioMoi = document.getElementById("moi");
-
-// Sélection du bloc d'éléments à afficher si "Pour quelqu'un d'autre" est sélectionné
-const blockAutrePersonne = document.querySelector('.autrePersonne');
-
-// Sélection des éléments du formulaire pour "quelqu'un d'autre"
-const formElementsAutres = {
-    nomAutre: document.getElementById("nomA"),
-    prenomAutre: document.getElementById("prenomA"),
-    telAutre: document.getElementById("TelA"),
-    emailAutre: document.getElementById("emailA")
-};
 const formElementsInsc = {
     rue: document.getElementById("rue")
 };
 
 // Sélection de l'élément pour l'adresse de la ville
 const adresseVille = document.getElementById("villes");
-
-// Objets de validation pour les éléments du formulaire "quelqu'un d'autre"
-const formAutreValide = {
-    nomAutre: checkTexte,
-    prenomAutre: checkTexte,
-    telAutre: checkPhone,
-    emailAutre: checkMail
-};
 
 // Objets de validation pour les éléments du formulaire d'inscription générale
 const formElementsInscValide = {
@@ -37,9 +15,6 @@ const submitButton = document.getElementById("submit");
 
 // Fonction d'initialisation pour ajouter les écouteurs d'événements
 function initEventListeners() {
-
-    //radioAutre.addEventListener('click', () => blockAutrePersonne.style.display = 'block');
-    //radioMoi.addEventListener('click', () => blockAutrePersonne.style.display = 'none');
     // Ajoute un écouteur d'événements sur le bouton de soumission
     submitButton.addEventListener('click', handleSubmit);
 }
@@ -49,15 +24,6 @@ function initEventListeners() {
 function handleSubmit(event) {
     event.preventDefault(); // Empêche l'envoi par défaut du formulaire
     let isValide = true; // Initialise une variable de validation
-
-    if (radioAutre.checked) {
-        for (const [key, element] of Object.entries(formElementsAutres)) {
-            if (!formAutreValide[key](element.value)) {
-                isValide = false;
-                highlightError(element);
-            }
-        }
-    }
 
     for (const [key, element] of Object.entries(formElementsInsc)) {
         if (!formElementsInscValide[key](element.value)) {
