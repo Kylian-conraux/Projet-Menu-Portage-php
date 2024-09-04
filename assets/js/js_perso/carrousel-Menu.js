@@ -1,5 +1,5 @@
 /*
-    Gestions de l'affichage des menus : 
+    Gestions de l'affichage des menus de la semaine et de la semaine suivante et précédente: 
 */
 
 

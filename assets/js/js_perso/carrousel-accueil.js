@@ -110,57 +110,61 @@ function recupLundi() {
 
     // Vérifier si la date actuelle a été trouvée
     if (positionDateActuelle === -1) {
-        console.log("impossible de récupérer la date du jour!");
-        return -1;
+        console.log("impossible de récupérer la date du jour!"); // Erreur si la date d'aujourd'hui n'est pas trouvée
+        return -1; // Retourne -1 en cas d'erreur
     }
 
-    const dateJour = new Date(menus[positionDateActuelle].date).getDay(); // Obtenir le jour de la semaine
-    // Calcul de la position du lundi
-    return positionDateActuelle - (dateJour === 0 ? 6 : dateJour - 1);
+    const dateJour = new Date(menus[positionDateActuelle].date).getDay(); // Obtenir le jour de la semaine (0 = Dimanche, 1 = Lundi, ...)
+    // Calcul de la position du lundi en fonction du jour actuel
+    return positionDateActuelle - (dateJour === 0 ? 6 : dateJour - 1); // Si c'est dimanche, retourner 6 jours en arrière, sinon ajuster au lundi
 }
 
+// Fonction pour afficher un élément du carrousel pour un jour spécifique
 function afficherCarouselItemAccueil(carrouselItem, positionDate) {
+    // Vérifier si la position de la date est valide
     if (positionDate < 0 || positionDate + 6 >= menus.length) {
-        console.error("Impossible de récupérer la semaine");
+        console.error("Impossible de récupérer la semaine"); // Erreur si la position dépasse la taille du tableau de menus
         return;
     }
 
-    const menu = menus[positionDate];
-    const date = new Date(menu.date).toLocaleDateString("fr-FR", { day: 'numeric', month: 'long' });
+    const menu = menus[positionDate]; // Récupérer le menu correspondant à la date
+    const date = new Date(menu.date).toLocaleDateString("fr-FR", { day: 'numeric', month: 'long' }); // Formater la date en français
 
-    carrouselItem.querySelector('h6').textContent += ` ${date} :`;
-    carrouselItem.querySelector(".entrée").textContent = menu.entree;
-    carrouselItem.querySelector(".plat").textContent = menu.plat;
-    carrouselItem.querySelector(".dessert").textContent = menu.dessert;
+    // Remplir les éléments HTML avec les informations du menu
+    carrouselItem.querySelector('h6').textContent += ` ${date} :`; // Ajouter la date au titre
+    carrouselItem.querySelector(".entrée").textContent = menu.entree; // Afficher l'entrée
+    carrouselItem.querySelector(".plat").textContent = menu.plat; // Afficher le plat principal
+    carrouselItem.querySelector(".dessert").textContent = menu.dessert; // Afficher le dessert
 }
 
-
+// Fonction pour afficher les éléments dans le carrousel sur la page d'accueil
 function afficherDansCarrouselAccueil() {
-    const carrouselItems = document.querySelectorAll(".item-carrousel");
+    const carrouselItems = document.querySelectorAll(".item-carrousel"); // Sélectionner tous les éléments du carrousel
 
-    const positionLundiActuelle = recupLundi();
+    const positionLundiActuelle = recupLundi(); // Récupérer la position du lundi actuel
     if (positionLundiActuelle === -1) {
-        console.error("Impossible de récupérer le lundi actuel");
+        console.error("Impossible de récupérer le lundi actuel"); // Erreur si la position du lundi est introuvable
         return;
     }
-    const positionDateActuelle = chercherDateAujourdhui();
+    const positionDateActuelle = chercherDateAujourdhui(); // Obtenir la position de la date actuelle
     carrouselItems.forEach((carrouselItem, index) => {
-        let posJour = positionLundiActuelle + index;
-        afficherCarouselItemAccueil(carrouselItem, posJour);
+        let posJour = positionLundiActuelle + index; // Calculer la position de chaque jour de la semaine
+        afficherCarouselItemAccueil(carrouselItem, posJour); // Afficher les informations du menu pour chaque jour
 
+        // Vérifier si la date actuelle correspond à l'élément du carrousel
         if (positionDateActuelle === posJour) {
-            currentIndex = index;
+            currentIndex = index; // Définir l'index actuel pour le carrousel
         }
     });
-
-
 }
+
+// Vérification du chemin de l'URL pour charger les éléments du carrousel sur la page d'accueil
 const currentPath = window.location.pathname;
 
 if (currentPath === '/' || currentPath === '/home') {
-    afficherDansCarrouselAccueil();
+    afficherDansCarrouselAccueil(); // Afficher les menus dans le carrousel
     document.addEventListener('DOMContentLoaded', () => {
-        initializeCarousel(currentIndex);
+        initializeCarousel(currentIndex); // Initialiser le carrousel une fois la page chargée
     });
 }
 
