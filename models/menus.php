@@ -1,5 +1,7 @@
 <?php
 
+// global $db assure la connexion à la base de données, penser à configurer votre propre connexion $db
+
 // Récupère tous les menus de la table "Menus".
 function getAllMenus()
 {

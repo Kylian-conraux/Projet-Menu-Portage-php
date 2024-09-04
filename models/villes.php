@@ -1,4 +1,6 @@
 <?php
+// global $db assure la connexion à la base de données, penser à configurer votre propre connexion $db
+
 
 // Récupère toutes les villes de la table "Villes".
 function getAllVilles()
