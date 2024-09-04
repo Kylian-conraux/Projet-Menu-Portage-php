@@ -1,3 +1,7 @@
+/*
+    Le formulaire de contact reprend des éléments  du fichier JS de formulaire
+*/
+
 const formElementsInsc = {
     rue: document.getElementById("rue")
 };
