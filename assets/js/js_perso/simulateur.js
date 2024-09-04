@@ -33,9 +33,9 @@ function calculerCoutTotal(nbPersonne, nbRepas) {
     let tarifRepas;
 
     if (radioFormuleComplète.checked) {
-        tarifRepas = (nbRepasTotal <= 3 ? 10.55 : 9.95) * nbRepasTotal;
+        tarifRepas = (nbRepasTotal <= 3 ? 11.10 : 10.45) * nbRepasTotal;
     } else {
-        tarifRepas = (nbRepasTotal <= 3 ? 7.60 : 6.75) * nbRepasTotal;
+        tarifRepas = (nbRepasTotal <= 3 ? 7.95 : 7.10) * nbRepasTotal;
     }
 
     if (supplements.fromage.checked) {
@@ -45,7 +45,7 @@ function calculerCoutTotal(nbPersonne, nbRepas) {
         tarifRepas += nbRepasTotal * (nbRepasTotal <= 3 ? 1.10 : 1.05);
     }
     if (supplements.baguette.checked) {
-        tarifRepas += nbRepasTotal * 0.80;
+        tarifRepas += nbRepasTotal * 0.85;
     }
 
     return parseFloat(tarifRepas.toFixed(2));
