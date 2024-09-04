@@ -46,78 +46,11 @@
                                 <div class="col-12">
                                     <textarea name="message" placeholder="Ville, allergènes, remarques ..."></textarea>
                                 </div>
-
                                 <h5>Nombres de repas : </h5>
                                 <div class="col-12  center slider">
                                     <range-slider min=1 max=14 step=1 value="7" id="rangSlider"></range-slider>
                                 </div>
-
-
-                                <!--  <div class="formule"></div> -->
                             </div><br>
-
-                            <!-- Sélection qui est le destinataire -->
-                            <div class="d-none">
-                                <h3>Pour qui : </h3>
-                                <div class="row radio">
-                                    <div class="col-6 col-12-small">
-                                        <div class="row">
-                                            <input type="radio" id="moi" name="qui" checked="true">
-                                            <label for="moi">Pour moi</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-12-small">
-                                        <div class="row">
-                                            <input type="radio" id="autre" name="qui">
-                                            <label for="autre">Pour quelqu'un d'autre</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--
-                                    Cas à traiter plus tard
-                                    <div class="col-4 col-12-small">
-                                        <input type="checkbox" id="pleins" name="pleins">
-                                        <label for="pleins">Pour plusieurs personnes</label>
-                                    </div>
-                                    -->
-
-
-                            <!-- si autre personne est sélectionné -->
-                            <div class="autrePersonne row">
-                                <div class="row">
-                                    <div class="col-6 col-12-small">
-                                        <input id="nomA" name="Fname" placeholder="Nom" type="text" />
-                                    </div>
-                                    <div class="col-6 col-12-small">
-                                        <input id="prenomA" name="Lname" placeholder="Prénom" type="text" />
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-6 col-12-small">
-                                        <input id="TelA" name="Tel" placeholder="Téléphone" type="text" />
-                                    </div>
-                                    <div class="col-6 col-12-small">
-                                        <input id="emailA" name="email" placeholder="Email" type="text" />
-                                    </div>
-                                </div>
-                                <div class="formule"></div>
-                            </div>
-
-                            <!-- A traiter plus tard
-                                <div class="col-12 autresPersonnes">-->
-                            <!-- si plusieurs personne est sélectionné -->
-                            <!-- <div>
-                                        <input id="nbPersonnes" name="nbPersonnes" placeholder="Combien ?"
-                                            type="text" />
-                                    </div>
-                                    <ul class="listePersonnes"> -->
-                            <!-- Liste à construire via js et dépendant du nombre de personnes -->
-                            <!--</ul>
-
-                                </div>-->
-
                             <div class="col-12">
                                 <!-- sélection de l'adresse -->
                                 <div class="col-12">
@@ -168,14 +101,12 @@
                             </div>
                             <div class="col-12">
                                 <a id="submit" href="#" class="form-button-submit button icon solid fa-envelope">Contacter</a>
-
                             </div>
                         </form>
                     </section>
                 </div>
             </div>
         </section>
-
         <!-- Footer -->
         <section id="footer">
             <div id="copyright" class="container">
