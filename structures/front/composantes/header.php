@@ -7,7 +7,7 @@
             <span><img src="assets/css/images/logo_final.svg" alt="logo" class="logo"/></span>
         <?php endif; ?>
 
-        <!-- Dynamic Text -->
+        <!-- Texte dynamique-->
         <br>
         <h1>
             <?php
